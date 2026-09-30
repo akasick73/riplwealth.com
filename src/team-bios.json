@@ -1,0 +1,86 @@
+[
+  {
+    "slug": "chase-bellefeuille",
+    "name": "Chase Bellefeuille",
+    "first": "Chase",
+    "role": "Founder",
+    "photo": "ripl-photos-115.jpg",
+    "intro": "Chase is the founder of RIPL and the voice behind its planning philosophy: start with your life, understand your options, and keep the decisions with you.",
+    "sections": [
+      [
+        "Why he built RIPL",
+        "Chase studied finance, spent years serving as a college pastor, and returned to financial services through Thrivent and RL Farmer on the Wells Fargo platform before launching RIPL in 2026. His family\u2019s experience with the proceeds from a business sale helped shape the firm he wanted to build."
+      ],
+      [
+        "How he thinks about wealth",
+        "Money should support the life you want to build. Chase\u2019s approach connects your business, investments, family priorities, and timeline so the next decision fits the full picture."
+      ]
+    ],
+    "booking": "https://calendly.com/chase-riplwealth/talk-to-the-founder"
+  },
+  {
+    "slug": "adam-kasick",
+    "name": "Adam Kasick",
+    "first": "Adam",
+    "role": "Wealth Manager",
+    "photo": "ripl-photos-086-1-.jpg",
+    "intro": "I've spent my career around business, entrepreneurship and money. I understand how easy it is to be intentional inside a business while the personal financial side becomes a collection of accounts, decisions and questions competing for attention.",
+    "sections": [
+      [
+        "I want you to understand what I\u2019m doing and why.",
+        "Today, I help successful people bring those pieces together. You can be involved in every detail or let me do the heavy lifting. Either way, I want the strategy to make sense when I explain it, and I want you to know who to call when the next question comes up."
+      ],
+      [
+        "Start with you. Not a product.",
+        "I believe successful people make great decisions when they can clearly see their options. My job isn\u2019t to make every decision for you. It\u2019s to give you the clarity to understand your options and decide which path makes the most sense for you. Before talking about an investment, I want to know what you're trying to accomplish, when you'll need the money, what risks actually matter to you and how the rest of your financial life fits around it."
+      ],
+      [
+        "Business experience first. Wealth strategy today.",
+        "I\u2019m a fee-only wealth advisor with RIPL Wealth, LLC. Before wealth management, I spent years owning, operating and working alongside businesses. That experience shapes the way I think about capital, risk and financial decisions today."
+      ],
+      [
+        "Outside the office",
+        "When I\u2019m not talking about money, there\u2019s a good chance I\u2019m doing something competitive. Golf, pickleball, F1 and youth sports tend to get most of my attention. I love coaching youth sports and helping young athletes learn to compete and handle adversity. The most important parts of my life are my faith and family. I\u2019m a husband and dad, and my Christian faith shapes how I try to live, serve people and approach my work."
+      ]
+    ],
+    "booking": "https://calendly.com/adam-riplwealth/30min"
+  },
+  {
+    "slug": "ashton-anderson",
+    "name": "Ashton Anderson",
+    "first": "Ashton",
+    "role": "Chief of Staff",
+    "photo": "ashton.jpg",
+    "intro": "Ashton is RIPL\u2019s Chief of Staff, helping the firm\u2019s operations run with clarity and intention.",
+    "sections": [
+      [
+        "The people behind the process",
+        "Ashton\u2019s role connects the work happening across the team. As Chief of Staff, she supports the operational structure behind RIPL\u2019s advisory experience."
+      ],
+      [
+        "A team approach",
+        "RIPL is built around a coordinated relationship. Ashton is part of the team supporting that approach, alongside Chase, Adam, and Tasha."
+      ]
+    ],
+    "booking": null
+  },
+  {
+    "slug": "tasha-skott",
+    "name": "Tasha Skott",
+    "first": "Tasha",
+    "role": "Experience Lead",
+    "photo": "tasha.jpg",
+    "intro": "Tasha is RIPL\u2019s Experience Lead, focused on the care and attention behind each interaction with the firm.",
+    "sections": [
+      [
+        "The experience matters",
+        "Financial conversations are personal. Tasha\u2019s role centers on the experience of working with RIPL and the standard of care the team brings to those interactions."
+      ],
+      [
+        "Meet the whole team",
+        "Tasha works alongside Chase, Adam, and Ashton as part of RIPL\u2019s team approach to serving clients."
+      ]
+    ],
+    "booking": null
+  }
+]
