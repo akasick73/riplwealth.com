@@ -1,0 +1,23 @@
+---
+const { context='wealth' } = Astro.props;
+const copy = {
+  business: {
+    title:'Am I paying more in taxes than I need to?',
+    text:'For a business owner, taxes touch almost everything. What you do with excess cash, how you invest, retirement plans, charitable giving, and eventually what happens when you sell the business. That doesn\'t automatically mean there\'s a tax problem. But with usaningful wealth, I\'d want to know we\'re not missing opportunities simply because your investments, business and taxes are being looked at separately.'
+  },
+  retirement: {
+    title:'How do I keep taxes from quietly working against my retirement plan?',
+    text:'Retirement can create decisions about which accounts to draw from, when to realize income, Roth conversions, charitable giving and required distributions. The right answer depends on your broader financial and tax picture, so those decisions should be evaluated together with your tax professional.'
+  },
+  concentrated: {
+    title:'How do I diversify without creating a tax problem I did not plan for?',
+    text:'A concentrated position can come with usaningful embedded gains. Before selling, we want to understand the tax consequences, your timing, charitable goals and the alternatives available. The objective is not simply to minimize tax. It is to make a better decision after tax.'
+  },
+  wealth: {
+    title:'Am I paying more in taxes than I need to?',
+    text:'Taxes are one part of the outcome. Account location, realized gains and losses, income needs, charitable giving and major financial transitions can all affect the tax conversation. we want investment decisions and tax decisions considered together, with your tax professional involved when appropriate.'
+  }
+};
+const c=copy[context]||copy.wealth;
+---
+<section class="section"><div class="wrap article"><div class="eyebrow">A MONEY QUESTION WORTH ASKING</div><h2>{c.title}</h2><p>{c.text}</p>{context==='business' ? <p><strong>We don’t want to make a decision just because it saves taxes.</strong> We want to know whether it leaves you better off after considering the taxes, the investment opportunity, and the tradeoffs.</p> : <p><strong>The question is not whether a strategy sounds tax-smart. It is whether it improves your overall outcome after considering the tradeoffs.</strong></p>}<a class="text-link dark-link" href="/money-questions/reduce-investment-taxes/">How can I reduce taxes on my investments? </a></div></section>

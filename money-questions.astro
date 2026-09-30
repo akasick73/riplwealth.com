@@ -1,0 +1,72 @@
+---
+import Layout from '../layout.astro';
+import BusinessOwnerCheckupCTA from '../components/BusinessOwnerCheckupCTA.astro';
+const sections = [
+  { title:'Business Owners', intro:'Questions about cash, building wealth outside the business, and preparing for a future sale.', questions:[
+    ['What should I do with excess business cash?','/business-owners/excess-business-cash/'],
+    ['How much cash should I keep in my business?','/business-owners/how-much-cash/'],
+    ['How do business owners build wealth outside their business?','/business-owners/build-wealth-outside-business/'],
+    ['How do I turn business wealth into personal wealth?','/business-owners/business-to-personal-wealth/'],
+    ['How much of my net worth should be tied to my business?','/business-owners/net-worth-in-business/'],
+    ['What should I do before selling my business?','/business-owners/before-selling-business/'],
+    ['What should I do with the money after selling my business?','/business-owners/after-selling-business/'],
+    ['What is QSBS and could it reduce taxes when I sell my business?','/business-owners/qsbs/']
+  ]},
+  { title:'Retirement', intro:'Questions about turning accumulated wealth into spending, income, flexibility and a retirement you can actually enjoy.', questions:[
+    ['Do I have enough money to retire well?','/retirement/'],
+    ['How much can I comfortably spend in retirement?','/retirement/'],
+    ['How much cash should I keep in retirement?','/retirement/'],
+    ['Which accounts should I withdraw from first in retirement?','/retirement/']
+  ]},
+  { title:'Company Stock & Concentrated Wealth', intro:'Questions for people whose success has created a large position in one stock, company or business.', questions:[
+    ['I have too much company stock. What should I do?','/concentrated-wealth/company-stock/'],
+    ['Should I sell my company stock?','/concentrated-wealth/sell-company-stock/'],
+    ['How much of my portfolio should be in one stock?','/concentrated-wealth/how-much-one-stock/'],
+    ['What is NUA and when should I consider it?','/concentrated-wealth/nua/'],
+    ['Should I diversify my company stock all at once or over time?','/concentrated-wealth/diversify-without-selling-all/'],
+    ['How can I reduce taxes when selling a large stock position?','/concentrated-wealth/taxes-selling-large-stock-position/'],
+    ['Should I donate appreciated stock instead of cash?','/concentrated-wealth/donate-appreciated-stock/'],
+    ['How much of my net worth should be tied to my business?','/concentrated-wealth/business-most-net-worth/']
+  ]},
+  { title:'Structured Notes', intro:'Plain-English answers about how structured notes work, where they can fit, and the risks and tradeoffs worth understanding first.', questions:[
+    ['What is a structured note?','/structured-notes/what-are-structured-notes/'],
+    ['Should I add structured notes to my portfolio?','/structured-notes/should-i-add-structured-notes/'],
+    ['Can I lose money in a structured note?','/structured-notes/can-you-lose-money/'],
+    ['What does downside protection mean in a structured note?','/structured-notes/downside-protection/'],
+    ['How do structured notes generate income?','/structured-notes/income/'],
+    ['What is a buffered structured note?','/structured-notes/buffered/'],
+    ['What is a barrier structured note?','/structured-notes/barrier/'],
+    ['How liquid are structured notes?','/structured-notes/liquidity-before-maturity/'],
+    ['What happens if the issuer of a structured note fails?','/structured-notes/issuer-failure/'],
+    ['How are structured notes different from ETFs?','/structured-notes/vs-etfs/'],
+    ['Are structured notes worth it?','/structured-notes/are-they-worth-it/'],
+    ['How do I invest in structured notes?','/structured-notes/how-to-invest/'],
+    ['Where can I buy structured notes?','/structured-notes/where-to-buy/'],
+    ['How do I find an advisor who understands structured notes?','/structured-notes/advisor/'],
+    ['What should We look for before buying a structured note?','/structured-notes/what-to-look-for/']
+  ]},
+  { title:'Taxes & Investing', intro:'Questions about cash, taxes and whether the money you have accumulated is positioned intentionally.', questions:[
+    ['What should I do with a large amount of cash?','/money-questions/large-amount-of-cash/'],
+    ['Do I have too much cash?','/money-questions/too-much-cash/'],
+    ['How can I reduce taxes on my investments?','/money-questions/reduce-investment-taxes/'],
+    ['Do I really need this insurance policy?','/insurance/']
+  ]},
+  { title:'Financial Transitions', intro:'Questions that tend to show up when life changes and several financial decisions arrive at once.', questions:[
+    ['What should I do with a large inheritance?','/money-questions/large-inheritance/'],
+    ['What financial decisions should I make during or after a divorce?','/money-questions/divorce-financial-decisions/'],
+    ['What financial decisions should I make after my spouse dies?','/money-questions/spouse-died-financial-decisions/'],
+    ['What should I do with a large amount of cash?','/money-questions/large-amount-of-cash/']
+  ]}
+];
+---
+<Layout title="Money Questions | RIPL Wealth" description="Straightforward answers from RIPL to the money questions successful people and business owners actually ask.">
+<section class="hero"><div class="wrap"><div class="eyebrow">MONEY QUESTIONS</div><h1>The questions people actually ask about their money.</h1><p class="lead">You don't need to know the financial terminology. Start with the question that's already on your mind. We’ll give you the straightforward answer, explain what could change that answer and show you what We’d be thinking about if we were sitting across the table from each other.</p></div></section>
+<section class="section"><div class="wrap mq-hub">
+  {sections.map(section => <section class="mq-section" aria-labelledby={`mq-${section.title.toLowerCase().replace(/[^a-z0-9]+/g,'-')}`}>
+    <div class="mq-section-head"><h2 id={`mq-${section.title.toLowerCase().replace(/[^a-z0-9]+/g,'-')}`}>{section.title}</h2><p>{section.intro}</p></div>
+    <div class="mq-grid">{section.questions.map(([q,url]) => <a class="mq-card" href={url}><h3>{q}</h3><b>Read the answer </b></a>)}</div>
+  </section>)}
+</div></section>
+<BusinessOwnerCheckupCTA heading="Business owner? Want to make this a little more personal?" body="If a few of these questions sound familiar, the Business Owner Wealth Persona Assessment is the next step. Nine answers. A personalized look at the areas We’d want to explore first." />
+<section class="section dark"><div class="wrap"><h2>Have a question you don't see answered here?</h2><p class="lead">Send it to us. If it’s something we can answer quickly, we will. If it's more complicated, we'll figure out the best next step.</p><a class="btn" href="/contact/">Ask RIPL a Question </a></div></section>
+</Layout>
