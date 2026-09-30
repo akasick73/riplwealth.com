@@ -235,3 +235,16 @@ header{background:rgba(42,34,80,.97)}
 .team-bio-link{display:block;width:fit-content;font-size:.85rem;font-weight:700;color:#6355B8;text-decoration:none;margin-top:18px}
 .team-bio-link:hover{text-decoration:underline}.team-bio-hero{display:grid;grid-template-columns:300px 1fr;gap:64px;align-items:center}.team-bio-photo{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center 20%;border-radius:16px}.team-bio-photo.adam{object-position:center 24%;height:375px}.team-bio-body{max-width:780px;margin:auto}.team-bio-body h2{font-size:2.5rem;margin-top:46px}.bio-portrait-frame{overflow:hidden;border-radius:16px}.bio-portrait-frame .adam{transform:scale(1.75);transform-origin:center 22%}
 @media(max-width:760px){.team-bio-hero{grid-template-columns:1fr;gap:32px}.bio-portrait-frame{max-width:300px}.team-bio-hero h1{font-size:3.2rem}}
+
+/* V.5 approved homepage hero */
+.hero-home{min-height:0;grid-template-columns:1fr 1fr;align-items:center;gap:0;padding:64px max(28px,calc((100vw - var(--max))/2 + 28px))}
+.hero-copy{padding:0 48px 0 0}.hero-copy h1{font-size:clamp(3rem,4.3vw,4.5rem);line-height:1.06;margin-bottom:26px}.hero-line{display:block}.hero-copy .lead{font-size:1.08rem;line-height:1.65;margin-top:0}.hero-photo{height:auto;min-height:0;display:block;border-radius:16px;overflow:hidden;background:transparent}.hero-photo img{width:100%;height:auto;object-fit:contain}.hero-photo:after{display:none}.hero-note{margin-top:26px}.hero-actions{margin-top:24px}
+@media(max-width:980px){.hero-home{grid-template-columns:1fr;padding:52px 28px;gap:40px}.hero-copy{padding:0;max-width:720px}.hero-copy h1{font-size:clamp(3rem,7vw,4.5rem)}.hero-photo{max-width:760px;width:100%;height:auto}.hero-line{display:inline}}
+@media(max-width:620px){.hero-home{padding:40px 20px;gap:30px}.hero-copy h1{font-size:clamp(2.6rem,10vw,3.4rem)}.hero-copy .lead{font-size:1rem}.hero-photo{border-radius:12px}}
+
+/* V.5: readable supporting copy on dark sections */
+.dark .questions-head p{color:#B8A8E8}
+
+.assessment-band .assessment-highlight{color:#C9963A}
+
+.founder-quote{margin:0 0 34px}.founder-quote p{font-family:var(--serif);font-size:clamp(2rem,3.2vw,3.3rem);line-height:1.18;letter-spacing:-.025em;color:#F4F3F8;margin:0 0 28px}.founder-quote footer{background:none;padding:0;font-size:.95rem;color:#B8A8E8}.founder-quote footer span{color:#DCDCE8}
