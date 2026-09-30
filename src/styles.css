@@ -248,3 +248,27 @@ header{background:rgba(42,34,80,.97)}
 .assessment-band .assessment-highlight{color:#C9963A}
 
 .founder-quote{margin:0 0 34px}.founder-quote p{font-family:var(--serif);font-size:clamp(2rem,3.2vw,3.3rem);line-height:1.18;letter-spacing:-.025em;color:#F4F3F8;margin:0 0 28px}.founder-quote footer{background:none;padding:0;font-size:.95rem;color:#B8A8E8}.founder-quote footer span{color:#DCDCE8}
+
+/* V.6: gold team link on homepage */
+.about-copy .team-link-gold{color:#C9963A;border-color:#C9963A}
+.about-copy .team-link-gold:hover{color:#DCAC55;border-color:#DCAC55}
+
+/* V.6: emphasize the homepage business-owner focus */
+.hero-copy > .eyebrow{color:#C9963A;font-weight:700}
+
+/* V.6: business-owner closing spacing */
+.business-closing h2{max-width:1000px;font-size:clamp(2.25rem,3.8vw,3.75rem);line-height:1.15;margin:0 0 28px}
+.business-closing .lead{max-width:760px;margin:0 0 18px;line-height:1.6}
+.business-closing p:not(.lead){max-width:760px;margin:0;line-height:1.7}
+.business-closing-actions{display:flex;align-items:center;flex-wrap:wrap;gap:20px 32px;margin-top:32px}
+.business-closing-actions .btn{text-align:center;white-space:normal}
+.business-closing-actions .text-link{display:inline-block;line-height:1.5}
+@media(max-width:620px){.business-closing{padding:56px 0}.business-closing h2{font-size:clamp(2rem,8vw,2.75rem);margin-bottom:24px}.business-closing-actions{flex-direction:column;align-items:flex-start;gap:20px;margin-top:28px}.business-closing-actions .btn{width:100%}}
+
+/* V.6: clearer business-owner navigation and link cues */
+.business-hero-gold{color:#C9963A}
+.business-question-jump{display:inline-block;margin-top:22px;color:#6355B8}
+.business-question-cards{scroll-margin-top:120px}
+.business-question-cards .card{display:flex;flex-direction:column}
+.card-question-link{display:block;margin-top:auto;padding-top:20px;color:#6355B8;font-size:.85rem;font-weight:600}
+.about-copy .team-link-gold{display:inline-block;border-bottom:1px solid #C9963A}
