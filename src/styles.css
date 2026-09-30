@@ -218,3 +218,12 @@ h1,h2{font-weight:500;letter-spacing:-.045em;line-height:1.05}h3{font-family:var
 .team-grid img,.team-portrait{height:auto;aspect-ratio:4/5;width:100%;object-fit:cover;object-position:center 20%;border-radius:12px;margin-bottom:25px}
 .team-portrait{overflow:hidden;background:#2A2250}
 .team-portrait img{height:100%;aspect-ratio:auto;margin:0;border-radius:0;object-position:center 18%;transform:scale(1.15);transform-origin:center 20%}
+
+.booking-portrait{width:150px;height:180px;object-fit:cover;object-position:center 18%;border-radius:12px;margin-bottom:26px;border:1px solid #DCDCE8}.booking-portrait-adam{object-position:center 24%}
+
+/* Selected #5: official Periwinkle on Deep */
+header{background:rgba(42,34,80,.97)}
+.ripl-brand img{content:url('/ripl-logo-periwinkle.png');filter:none}
+.hero-photo{display:flex;align-items:center;background:#2A2250;min-height:0}
+.hero-photo img{width:100%;height:auto;object-fit:contain;object-position:center}
+@media(max-width:980px){.hero-photo{height:auto;min-height:0}.hero-photo img{height:auto}.hero-tag{bottom:16px;right:16px;max-width:240px}}
