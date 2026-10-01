@@ -1,0 +1,39 @@
+/* V9: one responsive type and spacing system for every public page. */
+:root{--type-hero:clamp(2.5rem,4.8vw,4rem);--type-section:clamp(2rem,3.3vw,2.75rem);--type-card:clamp(1.5rem,2vw,1.75rem);--type-body:1.0625rem;--type-lead:1.125rem;--space-section:72px;--space-grid:40px}
+body{font-size:var(--type-body)}
+main h1,main .article h1,main .hero-copy h1,main .sage-hero h1,main .business-owner-hero h1,main .team-bio-hero h1,main .about-intro .about-title,main .about-copy .about-title{font-size:var(--type-hero);line-height:1.08;letter-spacing:-.035em}
+main h2,main .article h2,main .sage-steps-intro h2,main .business-owner-quiz h2,main :is(.about-copy,.final-cta,.contact-choice,.process-list,.booking-card,.team-bio-body,.business-closing,.business-closing-copy,.ten-question) h2{font-size:var(--type-section);line-height:1.12;letter-spacing:-.025em}
+main h3,main .card h3,main .sage-step-card h3,main :is(.callout,.clarity-step,.decision-grid,.mq-card,.opportunity-grid,.bo-result-side,.next-path-grid,.pillar,.stage-grid,.team-grid) h3{font-size:var(--type-card);line-height:1.2}
+main p,main .article p,main .about-intro .about-copy p,main .sage-step-card p,main .card p{font-size:var(--type-body);line-height:1.65}
+main .lead,main .answer,main .article .answer,main .hero-copy .lead{font-size:var(--type-lead);line-height:1.6}
+main .small,main .author-box p{font-size:.875rem}
+main .btn,main .text-link,main .team-bio-link{font-size:1rem;line-height:1.35}
+main .btn{min-height:48px;max-width:100%;padding:14px 24px;justify-content:center;text-align:center;white-space:normal}
+main :is(.section,.hero,.question,.manifesto,.jobs,.quiz-feature,.final-cta,.about-feature.about-intro){padding-top:var(--space-section);padding-bottom:var(--space-section)}
+main .split,main .questions-head,main .manifesto-grid{gap:var(--space-grid)}
+main .article h2{margin-top:48px;margin-bottom:20px}
+main .article{max-width:900px}main .article p,main .article .list{max-width:760px}
+main .article .callout{margin:32px 0}main .article .related{margin:40px 0 24px}
+main .hero-home{min-height:0}main .hero-copy{padding-top:var(--space-section);padding-bottom:var(--space-section)}
+main .manifesto .big-statement{font-size:var(--type-hero);line-height:1.08}
+main .manifesto-grid{margin-top:40px}
+main .business-quote-body blockquote{line-height:1.25}
+main .business-owner-quiz .split{align-items:start}
+main .business-owner-quiz p{margin-top:20px}
+.breadcrumbs{font-size:.875rem;color:var(--slate);margin-bottom:24px}.breadcrumbs ol{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:0}.breadcrumbs li+li:before{content:'/';padding-right:8px}.breadcrumbs a{text-underline-offset:4px}
+@media(max-width:620px){
+:root{--type-hero:clamp(2.125rem,8.5vw,2.5rem);--type-section:clamp(1.75rem,7vw,2rem);--type-card:1.375rem;--type-body:1rem;--type-lead:1.0625rem;--space-section:48px;--space-grid:28px}
+main .wrap{padding-left:20px;padding-right:20px}
+main .hero-copy{padding:48px 20px}
+main .article h2{margin-top:32px;margin-bottom:16px}
+main .hero-actions{gap:16px;margin-top:24px}
+main .btn{width:fit-content;min-height:48px;padding:13px 20px}
+main .hero-actions .btn{flex:0 1 auto}
+main .business-owner-hero h1{font-size:clamp(1.7rem,8.5vw,2.5rem)}
+main .about-intro-heading{margin-bottom:28px}
+main .split{gap:28px}
+main .callout{padding:24px 20px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
+
+main .business-closing .business-owner-quote p,main .business-owner-quote p,main .founder-quote p,main .about-chase-quote blockquote{font-size:clamp(1.625rem,2.4vw,2rem);line-height:1.25}

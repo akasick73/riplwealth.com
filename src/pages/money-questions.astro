@@ -60,7 +60,7 @@ const sections = [
 ];
 ---
 <Layout title="Money Questions | RIPL Wealth" description="Straightforward answers from RIPL to the money questions successful people and business owners actually ask.">
-<section class="hero"><div class="wrap"><div class="eyebrow">MONEY QUESTIONS</div><h1>The questions people actually ask about their money.</h1><p class="lead">You don't need to know the financial terminology. Start with the question that's already on your mind. We’ll give you the straightforward answer, explain what could change that answer and show you what We’d be thinking about if we were sitting across the table from each other.</p></div></section>
+<section class="hero"><div class="wrap"><div class="eyebrow">MONEY QUESTIONS</div><h1>The questions people actually ask about their money.</h1><p class="lead">You don't need to know the financial terminology. Start with the question that's already on your mind. We’ll give you the straightforward answer, explain what could change that answer and show you what we’d be thinking about if we were sitting across the table from each other.</p></div></section>
 <section class="section"><div class="wrap mq-hub">
   {sections.map(section => <section class="mq-section" aria-labelledby={`mq-${section.title.toLowerCase().replace(/[^a-z0-9]+/g,'-')}`}>
     <div class="mq-section-head"><h2 id={`mq-${section.title.toLowerCase().replace(/[^a-z0-9]+/g,'-')}`}>{section.title}</h2><p>{section.intro}</p></div>
