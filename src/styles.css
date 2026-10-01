@@ -321,3 +321,20 @@ header{background:rgba(42,34,80,.97)}
 .tax-conversation-action{margin-top:24px}.tax-conversation-action .btn{justify-content:center;min-height:48px;padding:13px 22px;line-height:1.35}
 
 @media(max-width:360px){.business-owner-hero .business-title-line{white-space:normal;overflow-wrap:normal}}
+
+/* Approved SAGE opening: paid planning and consulting */
+.sage-hero h1{font-size:clamp(2.5rem,5vw,5rem);line-height:1.08;max-width:1120px}.sage-hero-highlight{color:#C9963A}.sage-hero .eyebrow{line-height:1.5}.sage-included-link{display:inline-block;color:#6355B8;margin-top:20px}#sage-included{scroll-margin-top:120px}
+
+.dark .lead.sage-money-question{color:#C9963A}
+
+/* SAGE conversations: connected sequence and clear takeaways */
+.sage-steps-intro{max-width:850px;margin-bottom:40px}.sage-steps-intro h2{line-height:1.1}.sage-steps-intro p{color:#3D3D58;line-height:1.6}
+.sage-steps{list-style:none;margin:0;padding:0;max-width:1050px}
+.sage-step{display:grid;grid-template-columns:60px minmax(0,1fr);gap:28px;position:relative;padding-bottom:26px}
+.sage-step:not(:last-child):before{content:'';position:absolute;left:29px;top:60px;bottom:0;width:2px;background:#B8A8E8}
+.sage-step-number{display:flex;align-items:center;justify-content:center;width:60px;height:60px;border-radius:50%;background:#6355B8;color:#F4F3F8;font-size:1.15rem;font-weight:700;position:relative;z-index:1}
+.sage-step-card{background:#fff;border:1px solid #DCDCE8;border-radius:16px;padding:32px;min-width:0}.sage-step-card .eyebrow{margin-bottom:14px}.sage-step-card h3{font-family:var(--serif);font-size:clamp(1.7rem,2.6vw,2.4rem);line-height:1.15;margin:0 0 18px}.sage-step-card p{line-height:1.65;margin:0 0 22px}
+.sage-step-card .sage-step-takeaway{margin:0;border-top:1px solid #DCDCE8;padding-top:18px;color:#3D3D58}.sage-step-takeaway strong{display:block;color:#C9963A;font-size:.85rem;margin-bottom:6px}
+@media(max-width:620px){.sage-steps-section{padding:48px 0}.sage-steps-intro{margin-bottom:28px}.sage-steps-intro h2{font-size:2.2rem}.sage-step{grid-template-columns:38px minmax(0,1fr);gap:12px;padding-bottom:20px}.sage-step-number{width:38px;height:38px;font-size:.9rem}.sage-step:not(:last-child):before{left:18px;top:38px}.sage-step-card{padding:22px 18px;border-radius:12px}.sage-step-card h3{font-size:1.65rem}.sage-step-card .eyebrow{font-size:.6rem;letter-spacing:.12em}.sage-step-card p{font-size:.94rem}}
+
+.sage-closing h2{max-width:900px;line-height:1.1}.sage-closing .lead{max-width:760px;line-height:1.6;margin-bottom:28px}.sage-closing .btn{justify-content:center;max-width:100%;line-height:1.35}
