@@ -259,7 +259,7 @@ header{background:rgba(42,34,80,.97)}
 /* V.6: business-owner closing spacing */
 .business-closing h2{max-width:1000px;font-size:clamp(2.25rem,3.8vw,3.75rem);line-height:1.15;margin:0 0 28px}
 .business-closing .lead{max-width:760px;margin:0 0 18px;line-height:1.6}
-.business-closing p:not(.lead){max-width:760px;margin:0;line-height:1.7}
+.business-closing-copy > p:not(.lead){max-width:760px;margin:0;line-height:1.7}
 .business-closing-actions{display:flex;align-items:center;flex-wrap:wrap;gap:20px 32px;margin-top:32px}
 .business-closing-actions .btn{text-align:center;white-space:normal}
 .business-closing-actions .text-link{display:inline-block;line-height:1.5}
@@ -290,3 +290,34 @@ header{background:rgba(42,34,80,.97)}
 .business-owner-quote p{font-family:var(--serif);font-size:clamp(2rem,3vw,3.1rem);line-height:1.15;letter-spacing:-.025em;color:#F4F3F8;margin:0 0 20px!important;max-width:none!important}
 .business-owner-quote cite{display:block;font-style:normal;font-size:.85rem;color:#B8A8E8;line-height:1.5}
 @media(max-width:620px){.business-owner-hero h1{font-size:clamp(2.15rem,7.6vw,2.9rem)}.business-owner-quote p{font-size:clamp(1.9rem,7vw,2.6rem)}}
+
+/* V.6.3: deliberate mobile headline lines */
+.business-hero-gold{display:block}
+@media(max-width:620px){.business-owner-hero h1{font-size:clamp(1.65rem,8.8vw,3.4rem);line-height:1.08;letter-spacing:-.04em;text-wrap:initial}.business-title-line{display:block;white-space:nowrap}.business-owner-hero .business-hero-gold{margin-top:12px}}
+
+/* Pending mobile refinement: compact quote and appropriately sized actions */
+@media(max-width:620px){
+.business-closing .business-owner-quote{margin-bottom:24px}
+.business-closing .business-owner-quote p{font-size:clamp(1.85rem,7vw,2.5rem);line-height:1.16;margin-bottom:14px!important}
+.business-closing .business-owner-quote cite{font-size:.82rem;line-height:1.4}
+.business-closing-copy > .lead{margin-bottom:16px;line-height:1.55}
+.business-closing-copy > p:not(.lead){line-height:1.6}
+.business-closing-actions{margin-top:24px;gap:16px}
+.business-closing-actions .btn{width:auto;max-width:100%;min-height:48px;padding:13px 22px;justify-content:center;font-size:.9rem;line-height:1.35}
+.business-closing-actions .text-link{font-size:.82rem;padding:8px 0;line-height:1.45}
+}
+
+/* Pending refinement: consistent mobile quiz invitation spacing */
+@media(max-width:620px){
+.business-checkup{padding:48px 0}
+.business-checkup .split{gap:26px;align-items:start}
+.business-checkup .eyebrow{margin-bottom:20px;line-height:1.5;letter-spacing:.14em}
+.business-checkup h2{line-height:1.1;margin-bottom:0}
+.business-checkup .split > div > p:first-child{margin:0 0 20px;line-height:1.6}
+.business-checkup .btn{justify-content:center;min-height:48px;padding:13px 22px;font-size:.9rem;line-height:1.35}
+.business-checkup .small{margin:14px 0 0;font-size:.8rem;line-height:1.5}
+}
+
+.tax-conversation-action{margin-top:24px}.tax-conversation-action .btn{justify-content:center;min-height:48px;padding:13px 22px;line-height:1.35}
+
+@media(max-width:360px){.business-owner-hero .business-title-line{white-space:normal;overflow-wrap:normal}}
