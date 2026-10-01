@@ -283,3 +283,10 @@ header{background:rgba(42,34,80,.97)}
 .business-closing-copy{min-width:0}
 .business-closing-copy h2{font-size:clamp(2rem,3vw,3.1rem)}
 @media(max-width:800px){.business-closing-grid{grid-template-columns:1fr;gap:32px}.business-closing-portrait{width:100%;max-width:460px}.business-closing-copy h2{font-size:clamp(2rem,6vw,3rem)}}
+
+/* V.6.2: tighter opening and attributed Adam quote */
+.business-owner-hero h1{font-size:clamp(2.35rem,4.4vw,4.5rem);line-height:1.1;max-width:1120px;margin-bottom:28px;text-wrap:balance}
+.business-owner-quote{margin:0 0 28px}
+.business-owner-quote p{font-family:var(--serif);font-size:clamp(2rem,3vw,3.1rem);line-height:1.15;letter-spacing:-.025em;color:#F4F3F8;margin:0 0 20px!important;max-width:none!important}
+.business-owner-quote cite{display:block;font-style:normal;font-size:.85rem;color:#B8A8E8;line-height:1.5}
+@media(max-width:620px){.business-owner-hero h1{font-size:clamp(2.15rem,7.6vw,2.9rem)}.business-owner-quote p{font-size:clamp(1.9rem,7vw,2.6rem)}}
