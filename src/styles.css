@@ -325,7 +325,7 @@ header{background:rgba(42,34,80,.97)}
 /* Approved SAGE opening: paid planning and consulting */
 .sage-hero h1{font-size:clamp(2.5rem,5vw,5rem);line-height:1.08;max-width:1120px}.sage-hero-highlight{color:#C9963A}.sage-hero .eyebrow{line-height:1.5}.sage-included-link{display:inline-block;color:#6355B8;margin-top:20px}#sage-included{scroll-margin-top:120px}
 
-.dark .lead.sage-money-question{color:#C9963A}
+.dark .sage-money-question{color:#C9963A}
 
 /* SAGE conversations: connected sequence and clear takeaways */
 .sage-steps-intro{max-width:850px;margin-bottom:40px}.sage-steps-intro h2{line-height:1.1}.sage-steps-intro p{color:#3D3D58;line-height:1.6}
@@ -338,3 +338,28 @@ header{background:rgba(42,34,80,.97)}
 @media(max-width:620px){.sage-steps-section{padding:48px 0}.sage-steps-intro{margin-bottom:28px}.sage-steps-intro h2{font-size:2.2rem}.sage-step{grid-template-columns:38px minmax(0,1fr);gap:12px;padding-bottom:20px}.sage-step-number{width:38px;height:38px;font-size:.9rem}.sage-step:not(:last-child):before{left:18px;top:38px}.sage-step-card{padding:22px 18px;border-radius:12px}.sage-step-card h3{font-size:1.65rem}.sage-step-card .eyebrow{font-size:.6rem;letter-spacing:.12em}.sage-step-card p{font-size:.94rem}}
 
 .sage-closing h2{max-width:900px;line-height:1.1}.sage-closing .lead{max-width:760px;line-height:1.6;margin-bottom:28px}.sage-closing .btn{justify-content:center;max-width:100%;line-height:1.35}
+
+/* About page opening: team introduction and original-photo waist crop. */
+.about-title-highlight{color:#C9963A}
+.about-copy .about-title{font-size:clamp(2.6rem,4.3vw,4.8rem);line-height:1.08}
+.about-copy .about-team-link{display:inline-block;color:#B8A8E8;border-color:#B8A8E8}
+.about-copy .about-team-link:hover{color:#F4F3F8;border-color:#F4F3F8}
+#ripl-team{scroll-margin-top:120px}
+.about-feature .editorial-image{min-height:0;height:auto;aspect-ratio:2/1;align-self:center}
+.about-feature .editorial-image img{display:block;width:100%;height:100%;object-fit:cover;object-position:center top}
+@media(max-width:620px){.about-copy .about-title{font-size:clamp(2.4rem,9vw,3.3rem)}}
+
+/* About: Chase's philosophy quote. */
+.about-decisions .split{grid-template-columns:.9fr 1.1fr;gap:clamp(32px,6vw,90px)}
+.about-decisions h2{max-width:560px;line-height:1.08}
+.about-chase-quote{margin:0 0 30px;padding:0 0 26px;border-bottom:1px solid #DCDCE8}
+.about-chase-quote blockquote{margin:0 0 18px;color:#C9963A;font-family:var(--serif);font-size:clamp(1.8rem,2.5vw,2.6rem);font-weight:600;line-height:1.2;letter-spacing:-.025em}
+.about-chase-quote figcaption{font-size:.9rem;font-weight:700;color:#6355B8}
+.about-chase-quote figcaption span{font-weight:400;color:#3D3D58}
+.about-decisions-copy>p{line-height:1.65;margin:0 0 20px;max-width:680px}
+.about-decisions-copy>p:last-child{margin-bottom:0}
+@media(max-width:980px){.about-decisions .split{grid-template-columns:1fr;gap:28px}.about-decisions h2{margin-bottom:0}.about-chase-quote{margin-bottom:24px;padding-bottom:22px}}
+
+/* Approved matching office portraits already include the final crop. */
+.team-portrait-adam img,.bio-portrait-frame .adam{transform:none}
+.team-grid img,.team-portrait-adam img,.team-bio-photo,.booking-portrait{object-position:center}
