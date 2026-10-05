@@ -1,0 +1,39 @@
+RIPL V9: consistency and AEO review
+
+WHAT CHANGED
+A shared responsive typography scale now controls public page headings, section headings, cards, body copy and CTAs. Desktop hero headings top out at 64px; section headings at 44px; body text is 17px. Mobile hero headings use 34–40px, section headings 28–32px and body text 16px. Business-owner mobile headline line breaks retain their approved treatment. Quiz questions and controls keep their compact interaction scale.
+
+Sections use a common 72px desktop / 48px mobile rhythm. Existing brand colors, gold highlights, approved images and quotes are preserved. Assessment photos retain their explicit height limits.
+
+AEO STRUCTURE
+Every page has a connected organization, website and webpage schema graph. Educational question pages include Article and BreadcrumbList markup with RIPL Wealth as the author. Team bio pages use ProfilePage and Person markup with the roles already shown on the site. No credentials, review ratings, outcomes or publication dates were invented.
+
+Question pages have visible breadcrumbs. The sitemap includes all four team bios. Social preview metadata includes the approved homepage image, or the person's portrait on their bio page. Repetitive question-page descriptions now summarize the opening answer.
+
+AEO CONTENT
+Six Money Questions articles replace generic explanations and hypothetical examples with topic-specific guidance, relevant internal links and IRS or SEC references. Existing opening answers and approved marketing copy remain. Structured note articles add an SEC reference. Minor capitalization errors are corrected.
+
+CHECKS
+Astro build passed: 62 HTML pages. All pages passed checks for exactly one H1, unique titles and descriptions, canonical URLs, valid JSON-LD, working local links and fragments, existing images and alt attributes. Sitemap: 60 unique valid URLs; the 404 and thank-you pages are excluded. Assessment JavaScript passed Node syntax validation. Shared and assessment CSS passed parsing checks. Browser-rendered visual and interaction testing was unavailable; review the deployed preview before accepting the layout.
+
+REVIEW THESE PAGES
+/ : homepage type and section rhythm
+/business-owners/ : mobile headline, quote and CTAs
+/how-we-work/ : SAGE headline, steps and outcomes
+/money-questions/ : hub title and cards
+/money-questions/reduce-investment-taxes/ : article scale and new specific content
+/assessment/ : hero scale, compact photos, sections, then complete the quiz
+/about/ : opening, team cards and portraits
+/team/adam-kasick/ : bio layout
+
+LAUNCH STATUS
+The existing preview remains hidden from search. When the real domain is ready, set PUBLIC_INDEXABLE=true, update robots.txt to allow crawling and remove the global X-Robots-Tag noindex header in public/_headers. Confirm SITE_URL, rebuild and verify the production output. This package does not connect the domain or change those controls. Search and AI inclusion are not guaranteed.
+
+PRIMARY REFERENCES
+Google AI features: https://developers.google.com/search/docs/appearance/ai-features
+IRS investment income: https://www.irs.gov/publications/p550
+IRS IRA distributions: https://www.irs.gov/publications/p590b
+IRS survivors and estates: https://www.irs.gov/publications/p559
+IRS retirement and divorce: https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-divorce
+SEC structured notes: https://www.investor.gov/introduction-investing/investing-basics/investment-products/structured-notes-principal-protection
+SEC lump sum planning: https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/lump-sum-payouts-questions-1

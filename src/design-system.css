@@ -62,3 +62,17 @@ main .athlete-primary{background:var(--brass);color:var(--charcoal)}main .athlet
 @media(max-width:1180px){.navlinks{display:none}.mobile{display:block;margin-left:auto}.nav-cta{display:none}}
 @media(max-width:980px){.athlete-hero-grid{grid-template-columns:1fr;gap:36px}.athlete-priorities{padding:0 0 0 24px}.athlete-service-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:620px){.athlete-service-grid,.athlete-steps,.athlete-paths{grid-template-columns:1fr;gap:28px}.athlete-section-head{margin-bottom:28px}.athlete-hero h1{overflow-wrap:normal}.athlete-priorities li{padding:14px 0}.athlete-faq>article{padding:24px 0}.athlete-advisors{gap:16px}.athlete-advisors img{height:190px}.athlete-advisors h3{font-size:1.25rem}.athlete-advisors .text-link{font-size:.875rem}.athlete-script{padding-left:18px}}
+
+/* Business owners: finance-company proposition. */
+.finance-company-intro{max-width:860px}.finance-company-intro p{max-width:780px}
+.finance-company-benefits{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px;margin:36px 0 24px}
+.finance-company-benefits article{border-top:1px solid var(--stone);padding-top:24px}
+.finance-company-benefits article>span{display:block;font-family:var(--serif);font-size:3.5rem;line-height:1;color:var(--brass);margin-bottom:16px}
+.finance-company-benefits h3{margin-bottom:12px}.finance-company-benefits p{margin:0}
+.finance-company-note{max-width:840px;color:var(--slate)}
+.finance-company-sale{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:40px;padding-top:40px;border-top:1px solid var(--stone)}
+main .finance-company-sale h3{font-family:var(--serif);font-size:var(--type-section);line-height:1.12;font-weight:500}
+.finance-company-mountain{display:block;margin-top:12px}
+.finance-company-sale .btn{margin-top:12px}.finance-company-sale .small{margin-top:20px}
+#finance-company{scroll-margin-top:120px}
+@media(max-width:620px){.finance-company-benefits,.finance-company-sale{grid-template-columns:1fr;gap:28px}.finance-company-benefits{margin-top:28px}.finance-company-benefits article>span{font-size:2.75rem}.finance-company-sale{margin-top:32px;padding-top:32px}}

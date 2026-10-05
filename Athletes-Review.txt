@@ -1,0 +1,32 @@
+RIPL V9.1: Athletes page
+
+Review /athletes/ after uploading. This cumulative package includes all V9 consistency and AEO updates.
+
+CONTENT DIRECTION
+Audience: college athletes earning NIL income and professional athletes, with language aimed at people encountering substantial financial responsibilities for the first time.
+Approach: emphasize agency, clarity, time and relationships. Avoid shame, financial disaster statistics, stereotypes, forced slang and claims of existing athlete clients or league affiliations. The psychological framing is an editorial recommendation, not a tested conversion claim.
+
+Hero: Your career is taking off. Give your money a game plan.
+Key distinction: You can be great at your sport and still be new to this.
+Services: spending and cash flow; tax coordination; saving and investing; business and endorsement decisions; career changes; giving and money requests.
+Standout section: Let us be the “bad guy.” An optional, permission-based way to communicate the financial boundaries the athlete chooses, without disclosing their balances.
+Closing: Bring your questions. We’ll start there.
+
+STRUCTURE AND DESIGN
+Open editorial sections, RIPL gold/purple palette and V9 shared responsive type scale. Existing approved Chase and Adam portraits are used in the closing section. No stock athlete images, fabricated endorsements or new photo edits. Navigation and footer link to Athletes. The navigation switches to its mobile menu earlier to accommodate the added item.
+Six visible FAQ answers match the FAQPage JSON-LD. Canonical URL and sitemap entry are included. FAQ markup does not guarantee rich results or AI inclusion.
+
+RESEARCH
+IRS NIL guidance confirms that payments and non-cash compensation can be taxable; withholding and self-employment treatment depend on the payment and service arrangement. The copy avoids a universal tax-reserve percentage or blanket claim that all athlete income receives the same treatment. It also includes school and professional coordination rather than implying RIPL provides legal representation or tax filing.
+Primary sources:
+https://www.irs.gov/businesses/small-businesses-self-employed/name-image-and-likeness-income
+https://www.irs.gov/businesses/small-businesses-self-employed/estimated-taxes
+https://www.ncaa.org/student-athletes/name-image-likeness/
+
+VALIDATION
+63 HTML pages built successfully. Checks passed for unique titles and descriptions, one H1 per page, canonical URLs, valid structured data, local links and fragments, images and alt text. All six athlete FAQ answers match their visible content. Sitemap has 61 valid page entries. CSS parsed successfully. Browser-rendered visual testing was unavailable; review desktop and mobile before accepting the design. No forms were submitted or booking appointments created.
+
+BEFORE ACCEPTING COPY
+Confirm the ongoing service scope and team capacity to handle authorized requests from friends and family. The page presents this as an offered service based on your instruction. It makes no claim of athlete-specific credentials, NFLPA registration, existing athlete clients or guaranteed results.
+
+The domain remains disconnected and preview noindex controls remain in place.

@@ -1,0 +1,11 @@
+RIPL V9.2
+
+New finance-company section immediately after the existing Business Owners hero, before the Adam image and quote. The hero link jumps directly to it.
+
+Core proposition: Use genuinely excess cash to build wealth outside the operating business, without another workforce or operating business to manage. Finance company is a planning concept, not a required new legal entity. Investment and advisory costs still apply. Operating reserves, taxes, ownership and liquidity are considered before money moves. No guaranteed investment return or sale outcome.
+
+Payoff: Selling your business should be the cherry on top. Not the top of the mountain.
+
+Includes a consultation CTA and links to excess cash and wealth outside the business articles. Page description updated to reflect the proposition. Typography and mobile layout use the existing V9 system.
+
+Build and structural checks passed for all 63 pages. Visual browser review remains necessary.

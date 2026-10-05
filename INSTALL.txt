@@ -1,0 +1,5 @@
+RIPL V9.3 cumulative update
+
+Merge src and public into your existing repository, replacing matching files and keeping unrelated files. Commit and Push origin in GitHub Desktop. Review /assessment/ after Cloudflare rebuilds.
+
+Bottom quote photos now use the approved office portraits of Adam and Chase. Hero recording photos and both quotes stay unchanged. Portraits are limited to 224 x 280px desktop and 200 x 250px mobile. No photo editing. Includes all V9.2 finance-company, V9.1 athlete and V9 consistency updates. Build and structural checks passed for all 63 pages. Desktop/mobile visual review remains necessary.
