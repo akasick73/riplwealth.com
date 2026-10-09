@@ -1,0 +1,44 @@
+/* V9.4: restrained RIPL motion. All text remains present in the HTML. */
+.ripl-ripple{position:relative;isolation:isolate;overflow:hidden}
+.ripl-ripple:before,.ripl-ripple:after{content:'';position:absolute;z-index:-1;width:480px;height:480px;right:-220px;top:12%;border-radius:50%;border:1px solid rgba(184,168,232,.13);box-shadow:0 0 0 52px rgba(184,168,232,.035),0 0 0 104px rgba(201,150,58,.025);pointer-events:none;animation:ripl-breathe 10s ease-in-out infinite;animation-play-state:paused}
+.ripl-ripple:after{width:330px;height:330px;right:5%;top:60%;border-color:rgba(201,150,58,.12);animation-delay:-5s}
+.ripl-ripple.is-inview:before,.ripl-ripple.is-inview:after{animation-play-state:running}
+.home-finance{background:linear-gradient(120deg,#ECEAF4,#F4F3F8 70%)}
+.home-finance-grid,.finance-company-intro-grid{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:56px;align-items:center}
+.home-finance h2{max-width:720px}.home-finance .lead{max-width:680px}.home-finance-payoff{margin:24px 0;color:var(--slate)}.home-finance-payoff strong{color:var(--charcoal)}
+.finance-flow{margin:0;padding:28px;position:relative;isolation:isolate;overflow:hidden;border:1px solid rgba(99,85,184,.2);border-radius:18px;background:linear-gradient(145deg,#fff,#EEECF6);box-shadow:0 16px 50px rgba(42,34,80,.06)}
+.finance-flow:before{content:'';position:absolute;inset:0;z-index:-1;background-image:radial-gradient(rgba(99,85,184,.11) 1px,transparent 1px);background-size:20px 20px;mask-image:linear-gradient(transparent,#000);pointer-events:none}
+.finance-flow figcaption .eyebrow{display:block;font-size:.65rem;margin-bottom:20px;line-height:1.5}
+.finance-flow-steps{list-style:none;margin:0;padding:0}
+.finance-flow-node{position:relative;padding:20px;background:rgba(255,255,255,.93);border:1px solid #DCDCE8;border-radius:10px;animation:ripl-node 9s ease-in-out infinite;animation-play-state:paused}
+.finance-flow-node:not(:last-child){margin-bottom:34px}
+.finance-flow-node:not(:last-child):after{content:'';position:absolute;width:2px;height:34px;left:50%;top:100%;background:linear-gradient(#B8A8E8,#C9963A)}
+.finance-flow-node:not(:last-child):before{content:'';position:absolute;z-index:2;width:7px;height:7px;background:#C9963A;box-shadow:0 0 10px rgba(201,150,58,.3);border-radius:50%;left:calc(50% - 2.5px);top:calc(100% + 2px);animation:ripl-transfer 4.5s ease-in-out infinite;animation-play-state:paused}
+.finance-flow-node:nth-child(2){animation-delay:-6s}.finance-flow-node:nth-child(2):before{animation-delay:-2.25s}.finance-flow-node:nth-child(3){animation-delay:-3s}
+.finance-flow.is-inview .finance-flow-node,.finance-flow.is-inview .finance-flow-node:before{animation-play-state:running}
+.finance-flow-label{display:block;color:#6355B8;font-size:.65rem;letter-spacing:.1em;font-weight:700;margin-bottom:10px}
+.finance-flow-node strong{display:block;font-family:var(--serif);font-size:1.6rem;font-weight:500;line-height:1.15;color:var(--charcoal)}
+main .finance-flow-node p{font-size:.9375rem;line-height:1.5;margin:10px 0 0}
+.finance-flow-destination{border-color:rgba(201,150,58,.55)}.finance-flow-destination .finance-flow-label{color:#8C651E}
+main .finance-flow-caption{font-size:.75rem;margin:18px 0 0;line-height:1.5;color:var(--slate)}
+.motion-card{position:relative;isolation:isolate;overflow:hidden;transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease}
+.motion-card:after{content:'';position:absolute;z-index:-1;pointer-events:none;width:150px;height:150px;right:-65px;bottom:-75px;border-radius:50%;border:1px solid rgba(184,168,232,.22);box-shadow:0 0 0 20px rgba(184,168,232,.04),0 0 0 40px rgba(201,150,58,.025);transition:transform .45s ease,opacity .45s ease;opacity:.65}
+.motion-card:hover,.motion-card:focus-visible{border-color:#C9963A;box-shadow:0 10px 30px rgba(42,34,80,.07);transform:translateY(-3px)}
+.motion-card:hover:after,.motion-card:focus-visible:after{transform:translate(-12px,-10px) scale(1.08);opacity:1}
+.ripl-reveal.is-revealed{animation:ripl-enter .6s cubic-bezier(.2,.65,.3,1) both;animation-delay:var(--reveal-delay,0ms)}
+.sage-step.is-revealed .sage-step-number{animation:ripl-enter .5s ease both}.sage-step.is-revealed:not(:last-child):before{transform-origin:top;animation:ripl-line .8s ease both}
+.assessment-band{position:relative;isolation:isolate;overflow:hidden}
+.assessment-band .btn{box-shadow:0 0 0 5px rgba(201,150,58,.09);transition:box-shadow .3s ease,transform .3s ease}.assessment-band .btn:hover{box-shadow:0 0 0 9px rgba(201,150,58,.12)}
+.motion-toggle{position:fixed;bottom:18px;right:18px;z-index:30;border:1px solid #DCDCE8;border-radius:24px;min-height:44px;padding:10px 16px;background:#F4F3F8;color:#2A2250;font:500 .8125rem var(--sans);box-shadow:0 4px 16px rgba(19,15,42,.1);cursor:pointer}
+.motion-toggle:focus-visible,main a:focus-visible{outline:2px solid #C9963A;outline-offset:4px}
+.motion-toggle[hidden]{display:none}
+html[data-motion-paused] .ripl-ripple:before,html[data-motion-paused] .ripl-ripple:after,html[data-motion-paused] .finance-flow-node,html[data-motion-paused] .finance-flow-node:before{animation-play-state:paused!important}
+html[data-motion-paused] .ripl-reveal,html[data-motion-paused] .sage-step-number,html[data-motion-paused] .sage-step:before{animation:none!important}
+@keyframes ripl-breathe{0%,100%{transform:translate(0,0) scale(1);opacity:.6}50%{transform:translate(-18px,12px) scale(1.08);opacity:1}}
+@keyframes ripl-node{0%,100%{box-shadow:0 0 0 transparent}35%{border-color:rgba(201,150,58,.7);box-shadow:0 0 22px rgba(201,150,58,.08)}}
+@keyframes ripl-transfer{0%{transform:translateY(0);opacity:0}20%{opacity:1}80%{opacity:1}100%{transform:translateY(24px);opacity:0}}
+@keyframes ripl-enter{from{opacity:.65;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@keyframes ripl-line{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+@media(max-width:980px){.home-finance-grid,.finance-company-intro-grid{grid-template-columns:1fr;gap:32px}.finance-flow{width:100%;max-width:560px}.ripl-ripple:after{display:none}}
+@media(max-width:620px){.finance-flow{padding:22px 18px;border-radius:12px}.finance-flow-node{padding:18px}.ripl-ripple:before{width:300px;height:300px;right:-170px}.motion-toggle{bottom:12px;right:12px;font-size:.75rem}.motion-card:hover{transform:none}}
+@media(prefers-reduced-motion:reduce){.ripl-ripple:before,.ripl-ripple:after,.finance-flow-node,.finance-flow-node:before,.ripl-reveal,.sage-step-number,.sage-step:before{animation:none!important}.motion-toggle{display:none}.motion-card,.motion-card:after,.assessment-band .btn{transition:none!important}.motion-card:hover,.motion-card:focus-visible{transform:none}}
