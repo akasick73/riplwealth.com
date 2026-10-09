@@ -43,11 +43,9 @@ html[data-motion-paused] .ripl-reveal,html[data-motion-paused] .sage-step-number
 @media(max-width:620px){.finance-flow{padding:22px 18px;border-radius:12px}.finance-flow-node{padding:18px}.ripl-ripple:before{width:300px;height:300px;right:-170px}.motion-toggle{bottom:12px;right:12px;font-size:.75rem}.motion-card:hover{transform:none}}
 @media(prefers-reduced-motion:reduce){.ripl-ripple:before,.ripl-ripple:after,.finance-flow-node,.finance-flow-node:before,.ripl-reveal,.sage-step-number,.sage-step:before{animation:none!important}.motion-toggle{display:none}.motion-card,.motion-card:after,.assessment-band .btn{transition:none!important}.motion-card:hover,.motion-card:focus-visible{transform:none}}
 
-/* V9.5: gold photo frame with a traveling highlight confined to its inset. */
-.ripl-photo-frame{position:relative;isolation:isolate;display:block;aspect-ratio:4/5;width:100%;overflow:hidden;border:1px solid #C9963A;border-radius:14px;background:#2A2250;box-shadow:0 5px 22px rgba(19,15,42,.1)}
-.ripl-photo-frame:before{content:'';position:absolute;z-index:0;width:200%;height:200%;left:-50%;top:-50%;background:conic-gradient(from 0deg,rgba(201,150,58,.14) 0deg,rgba(201,150,58,.14) 230deg,#A87825 270deg,#E8C879 300deg,#C9963A 325deg,rgba(201,150,58,.14) 360deg);animation:ripl-frame-orbit 12s linear infinite;animation-play-state:paused;pointer-events:none}
-.ripl-photo-frame.is-inview:before{animation-play-state:running}
-.photo-frame-image{position:absolute;z-index:1;inset:7px;overflow:hidden;border-radius:7px;background:#130F2A}
+/* Thin, static gold photo frames. */
+.ripl-photo-frame{position:relative;isolation:isolate;display:block;aspect-ratio:4/5;width:100%;overflow:hidden;border:1px solid #C9963A;border-radius:14px;background:#2A2250;box-shadow:none}
+.photo-frame-image{position:absolute;z-index:1;inset:0;overflow:hidden;border-radius:13px;background:#130F2A}
 main .photo-frame-image img{display:block;width:100%;height:100%;max-height:none;aspect-ratio:auto;margin:0;border:0;border-radius:0;object-fit:cover}
 .hero-photo,.editorial-image,.business-closing-photo{position:relative}
 .hero-photo>.ripl-photo-frame,.editorial-image>.ripl-photo-frame,.business-closing-photo>.ripl-photo-frame{position:absolute;inset:0;width:100%;height:100%;aspect-ratio:auto}
@@ -63,10 +61,7 @@ main .bio-portrait-frame .photo-frame-image .adam{height:100%}
 .finance-flow-node:not(:last-child):before{width:9px;height:9px;left:calc(50% - 3.5px);box-shadow:0 0 14px rgba(201,150,58,.5);animation-duration:3.8s}
 .motion-card:after{border-color:rgba(184,168,232,.36);box-shadow:0 0 0 20px rgba(184,168,232,.075),0 0 0 40px rgba(201,150,58,.045);opacity:.9}
 .motion-card:hover:after,.motion-card:focus-visible:after{transform:translate(-18px,-14px) scale(1.14)}
-@keyframes ripl-frame-orbit{to{transform:rotate(360deg)}}
 @keyframes ripl-breathe{0%,100%{transform:translate(0,0) scale(1);opacity:.7}50%{transform:translate(-28px,18px) scale(1.12);opacity:1}}
 @keyframes ripl-node{0%,100%{box-shadow:0 0 0 transparent}35%{border-color:rgba(201,150,58,.9);box-shadow:0 0 26px rgba(201,150,58,.16)}}
 @keyframes ripl-enter{from{opacity:.6;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
-html[data-motion-paused] .ripl-photo-frame:before{animation-play-state:paused!important}
-@media(max-width:620px){.photo-frame-image{inset:5px;border-radius:8px}.ripl-photo-frame{border-radius:14px}.hero-photo>.ripl-photo-frame{inset:auto;width:calc(100% - 20px);height:auto;margin:10px}.athlete-advisors .ripl-photo-frame{height:190px}}
-@media(prefers-reduced-motion:reduce){.ripl-photo-frame:before{animation:none!important;background:linear-gradient(135deg,#A87825,#E8C879,#C9963A)}}
+@media(max-width:620px){.photo-frame-image{inset:0;border-radius:13px}.ripl-photo-frame{border-radius:14px}.hero-photo>.ripl-photo-frame{inset:auto;width:calc(100% - 20px);height:auto;margin:10px}.athlete-advisors .ripl-photo-frame{height:190px}}

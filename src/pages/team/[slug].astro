@@ -5,6 +5,6 @@ export function getStaticPaths(){return bios.map(bio=>({params:{slug:bio.slug},p
 const {bio}=Astro.props;
 ---
 <Layout title={`Meet ${bio.name} | RIPL Wealth`} description={bio.intro} profile={bio}>
-<section class="section"><div class="wrap team-bio-hero"><div class="bio-portrait-frame"><div class="ripl-photo-frame" data-motion><div class="photo-frame-image"><img class:list={['team-bio-photo',{adam:bio.first==='Adam'}]} src={`/images/${bio.photo}`} alt={bio.name}/></div></div></div><div><div class="eyebrow">{bio.role}</div><h1>{bio.name}</h1><p class="lead">{bio.intro}</p><a class="btn" href="/contact/">Talk to the Team</a></div></div></section>
+<section class="section"><div class="wrap team-bio-hero"><div class="bio-portrait-frame"><div class="ripl-photo-frame"><div class="photo-frame-image"><img class:list={['team-bio-photo',{adam:bio.first==='Adam'}]} src={`/images/${bio.photo}`} alt={bio.name}/></div></div></div><div><div class="eyebrow">{bio.role}</div><h1>{bio.name}</h1><p class="lead">{bio.intro}</p><a class="btn" href="/contact/">Talk to the Team</a></div></div></section>
 <section class="section questions"><div class="wrap"><div class="team-bio-body">{bio.sections.map(([heading,body])=><section><h2>{heading}</h2><p>{body}</p></section>)}<div class="cta"><a class="btn" href="/contact/">Start the Conversation</a></div><p><a class="team-bio-link" href="/about/">Meet the RIPL Team →</a></p></div></div></section>
 </Layout>

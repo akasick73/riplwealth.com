@@ -26,13 +26,13 @@ function render(focus=false){
   if(!q.aud){
     h=heading('Which sounds most like you?')+'<p>The questions will fit the life you are building.</p><div class="q-choose"><button type="button" data-pick="owner"><strong>I own a business.</strong><small>Connect business success with personal wealth.</small></button><button type="button" data-pick="athlete"><strong>I’m an athlete.</strong><small>Organize new income and build beyond your sport.</small></button><button type="button" data-pick="career"><strong>I’m building my career or next chapter.</strong><small>Make your income and savings work toward your life.</small></button></div>';
   }else if(q.step<2){
-    h=`<div class="q-prog">${tracks[q.aud]} · Step ${q.step+1} of 3</div>`+heading('Does this sound like you?')+'<p>Think about where you are today, rather than where you want to be.</p>';
+    h=`<div class="q-prog">${tracks[q.aud]} · Step ${q.step+1} of 3</div><progress class="q-meter" value="${q.step}" max="3" aria-label="Quiz steps completed"></progress>`+heading('Does this sound like you?')+'<p>Think about where you are today, rather than where you want to be.</p>';
     const start=q.step*6;
-    for(let i=start;i<start+6;i++)h+=`<fieldset class="q-item"><legend>${i+1}. ${esc(data.statements[q.aud][i][1])}</legend><div class="q-btns">${[[0,'Not me'],[1,'Feels like me']].map(([v,label])=>`<button type="button" data-rate="${i}" data-value="${v}" aria-pressed="${q.rate[i]===v}">${label}</button>`).join('')}</div></fieldset>`;
+    for(let i=start;i<start+6;i++)h+=`<div class="q-item" role="group" aria-labelledby="statement-${i}"><p class="q-statement" id="statement-${i}"><span class="q-number" aria-hidden="true">${i+1}</span>${esc(data.statements[q.aud][i][1])}</p><div class="q-btns">${[[0,'Not me'],[1,'Feels like me']].map(([v,label])=>`<button type="button" data-rate="${i}" data-value="${v}" aria-pressed="${q.rate[i]===v}">${label}</button>`).join('')}</div></div>`;
     h+=nav(q.rate.slice(start,start+6).every(v=>v!==null));
   }else if(q.step===2){
-    h=`<div class="q-prog">${tracks[q.aud]} · Step 3 of 3</div>`+heading('Which feels more like you?')+'<p>Choose the closer fit in each pair. Both approaches have strengths and tradeoffs.</p>';
-    data.duels.forEach((pair,i)=>{h+=`<fieldset class="q-duel"><legend>Choice ${i+1} of 5</legend><div class="q-pair">${pair.map((s,j)=>`<button type="button" data-duel="${i}" data-value="${j===0?'o':'s'}" aria-pressed="${q.duel[i]===(j===0?'o':'s')}">${esc(s)}</button>`).join('')}</div></fieldset>`;});
+    h=`<div class="q-prog">${tracks[q.aud]} · Step 3 of 3</div><progress class="q-meter" value="2" max="3" aria-label="Quiz steps completed"></progress>`+heading('Which feels more like you?')+'<p>Choose the closer fit in each pair. Both approaches have strengths and tradeoffs.</p>';
+    data.duels.forEach((pair,i)=>{h+=`<div class="q-duel" role="group" aria-labelledby="choice-${i}"><p class="q-choice-label" id="choice-${i}">Choice ${i+1} of 5</p><div class="q-pair">${pair.map((s,j)=>`<button type="button" data-duel="${i}" data-value="${j===0?'o':'s'}" aria-pressed="${q.duel[i]===(j===0?'o':'s')}">${esc(s)}</button>`).join('')}</div></div>`;});
     h+=nav(q.duel.every(v=>v!==null),'See My Wealth Persona');
   }else h=result();
   body.innerHTML=h;

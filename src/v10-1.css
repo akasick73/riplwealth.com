@@ -1,0 +1,104 @@
+/* V10.1: shared editorial rhythm and focused assessment controls. */
+main .home-restored-copy{margin:24px 0 0;max-width:600px;color:#DCDCE8}
+main .ripl-photo-frame{border:1px solid #C9963A;background:transparent;box-shadow:none}
+main .ripl-photo-frame:before,main .ripl-photo-frame:after{content:none}
+main .photo-frame-image{inset:0;border-radius:13px}
+.owner-clarity{padding:0 0 var(--space-section);background:#F4F3F8}
+.owner-clarity-grid{display:grid;grid-template-columns:180px minmax(0,1fr);gap:40px;align-items:center;max-width:1000px}
+.owner-clarity .ripl-photo-frame{height:220px;aspect-ratio:auto}
+.owner-clarity img{object-position:center 25%}
+.owner-clarity blockquote{margin:0;border:0;padding:0}
+main .owner-clarity blockquote p{font-family:var(--serif);font-size:var(--type-section);line-height:1.18;color:#A77624;margin:0 0 20px;letter-spacing:-.02em}
+.owner-clarity cite{font:normal .9rem var(--sans);color:#6355B8}
+/* Sport photographs belong to the same quiet gold frame system. */
+main .athlete-hero-grid{grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:48px;align-items:start}
+.athlete-hero-editorial{min-width:0}
+.sports-photo{margin:0}
+.sports-photo .ripl-photo-frame{aspect-ratio:3/2;height:auto}
+.sports-photo img{object-position:center}
+.sports-photo figcaption{font-size:.7rem;line-height:1.5;color:#3D3D58;margin:10px 0 0}
+.dark .sports-photo figcaption,.athlete-hero .sports-photo figcaption{color:#B8A8E8}
+.athlete-hero-editorial .athlete-priorities{margin-top:28px;padding:24px 0 0;background:transparent;border:0;border-top:1px solid rgba(201,150,58,.5);border-radius:0}
+.athlete-hero-editorial .athlete-priorities ul{margin:0;padding:0;list-style:none}
+.athlete-hero-editorial .athlete-priorities li{font-family:var(--sans);font-size:1rem;line-height:1.5;padding:10px 0;border-bottom:1px solid rgba(184,168,232,.2)}
+.dark .sports-photo{margin-top:30px}
+/* A continuous path with a balanced title / explanation at every stage. */
+.freedom-path{max-width:1040px;margin:0 auto}
+.freedom-path-intro{max-width:680px;margin-bottom:40px}
+.freedom-path-intro p{color:#3D3D58}
+.freedom-stages{position:relative;list-style:none;margin:0;padding:0}
+.freedom-stages:before{content:'';position:absolute;left:25px;top:28px;bottom:65px;width:1px;background:#C9963A}
+.freedom-stage{position:relative;display:grid;grid-template-columns:52px minmax(160px,.7fr) minmax(0,1.3fr);gap:28px;padding:32px 0;align-items:start}
+.freedom-number{position:relative;display:flex;align-items:center;justify-content:center;min-width:52px;height:52px;background:#ECEAF4;border:1px solid #C9963A;border-radius:50%;color:#A77624;font-size:.85rem;font-weight:700;font-variant-numeric:tabular-nums}
+.freedom-stage-label{padding-top:2px}
+.freedom-role{display:block;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;line-height:1.5;color:#6355B8;margin-bottom:10px}
+main .freedom-stage h3{font-family:var(--serif);font-size:var(--type-section);font-weight:400;line-height:1.1;margin:0}
+.freedom-stage-copy{padding-bottom:30px;border-bottom:1px solid #DCDCE8;min-height:105px}
+main .freedom-stage-copy p{margin:0;max-width:640px}
+main .freedom-stage-copy .freedom-milestone{display:inline-block;font-size:.85rem;font-weight:700;color:#6355B8;margin:0 0 14px}
+.freedom-stage-4 .freedom-number,.freedom-stage-5 .freedom-number{background:#C9963A;color:#130F2A}
+.freedom-stage-5 h3{color:#A77624}
+.freedom-stage-5 .freedom-stage-copy{border-bottom:0}
+/* Answers: a quiet category column and readable, consistent accordions. */
+main .mq-hub{gap:64px}
+main .mq-section{display:grid;grid-template-columns:minmax(200px,.65fr) minmax(0,1.35fr);gap:18px 48px;align-items:start;border-top:1px solid #DCDCE8;padding-top:32px}
+main .mq-section-head{display:block;margin:0;padding:0;border:0;grid-column:1;grid-row:1 / span 3;min-width:0}
+main .mq-section-head h2{font-size:var(--type-section);margin:0 0 16px}
+main .mq-section-head p{font-size:var(--type-body);line-height:1.65}
+main .mq-section .mq-list,main .mq-section .category-deeper,main .mq-section .source-note{grid-column:2;min-width:0;margin:0}
+main .mq-list{display:block}
+main .mq-list details{border:0;border-bottom:1px solid #DCDCE8;background:transparent;margin:0}
+main .mq-list summary{font-family:var(--serif);font-weight:500;font-size:var(--type-card);line-height:1.25;padding:20px 38px 20px 0;color:#130F2A}
+main .mq-list summary:after{right:4px;font-size:1.15rem}
+main .mq-list details:first-child summary{padding-top:0}
+main .mq-list details:first-child summary:after{top:calc(50% - 10px)}
+main .mq-list details[open] summary{color:#6355B8}
+main .mq-ans{padding:4px 30px 24px 0;max-width:700px}
+main .mq-ans p,main .mq-ans .lead{font-size:var(--type-body);line-height:1.65}
+main .mq-ans b{font-size:.8rem;margin:20px 0 8px;letter-spacing:.025em}
+main .mq-section .source-note{font-size:.75rem;line-height:1.6}
+/* Assessment landing and interactive steps use the site's shared type scale. */
+main .assessment-intro{gap:48px}
+main .assessment-intro h1{font-size:var(--type-hero)}
+main .assessment-intro .lead{font-size:var(--type-lead);line-height:1.6}
+main .assessment-intro .ripl-ripple{padding:0 0 4px;background:transparent;border:0;border-radius:0}
+main .assessment-photo-pair .ripl-photo-frame{height:auto;aspect-ratio:4/5}
+main .assessment-points{padding-top:24px;border-top:1px solid #DCDCE8;gap:12px 24px;font-size:.8rem}
+main .assessment-points span{line-height:1.5}
+main .quiz{max-width:1000px;margin:0 auto;padding:0;background:transparent;border:0;border-radius:0;box-shadow:none}
+main #quizBody{max-width:none;padding:0;border:0;background:transparent}
+main .quiz h2.quiz-heading{font-family:var(--serif);font-size:var(--type-section);line-height:1.12;font-weight:400;letter-spacing:-.025em;margin:0 0 20px;color:#130F2A}
+main .quiz p{font-size:var(--type-body);line-height:1.65}
+main .quiz .q-prog{font-size:.75rem;letter-spacing:.08em;color:#6355B8;margin:0 0 10px}
+.q-meter{display:block;appearance:none;width:100%;height:3px;border:0;background:#DCDCE8;margin:0 0 30px;color:#C9963A}
+.q-meter::-webkit-progress-bar{background:#DCDCE8}
+.q-meter::-webkit-progress-value{background:#C9963A}
+.q-meter::-moz-progress-bar{background:#C9963A}
+main .q-choose{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin-top:30px}
+main .q-choose button{width:100%;height:auto;min-height:170px;padding:24px;text-align:left;border:1px solid #DCDCE8;border-top:2px solid #C9963A;border-radius:0;background:#F4F3F8;box-shadow:none;transition:border-color .2s,background .2s;color:#130F2A}
+main .q-choose button:hover{border-color:#C9963A;background:#fff}
+main .q-choose button strong{font-family:var(--serif);font-size:var(--type-card);font-weight:500;line-height:1.2}
+main .q-choose button small{font-size:.9rem;line-height:1.6;color:#3D3D58;margin-top:16px}
+main .q-item{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;align-items:center;background:transparent;padding:24px 0;margin:0;border:0;border-bottom:1px solid #DCDCE8}
+main .q-item .q-statement{position:relative;display:flex;align-items:flex-start;gap:16px;margin:0;font-size:var(--type-body);line-height:1.6;color:#130F2A}
+.q-number{flex:0 0 30px;width:30px;height:30px;border:1px solid #C9963A;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;color:#A77624;font-size:.75rem;font-weight:700;line-height:1}
+main .q-item .q-btns{display:flex;flex-wrap:nowrap;gap:10px;margin:0}
+main .q-btns button,main .q-pair button{border:1px solid #B8A8E8;background:#F4F3F8;color:#2A2250;border-radius:6px;font-family:var(--sans);font-size:.95rem;padding:12px 18px;min-height:48px;box-shadow:none;line-height:1.5}
+main .q-btns button[aria-pressed=true],main .q-pair button[aria-pressed=true]{background:#2A2250;color:#F4F3F8;border-color:#C9963A;box-shadow:inset 0 -2px #C9963A}
+main .q-btns button:hover,main .q-pair button:hover{border-color:#C9963A}
+main .q-duel{background:transparent;border:0;border-bottom:1px solid #DCDCE8;padding:24px 0;margin:0}
+main .q-duel .q-choice-label{font-size:.8rem;color:#6355B8;font-weight:700;margin:0 0 14px}
+main .q-pair{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:0}
+main .q-pair button{text-align:left;width:100%;height:auto}
+main .q-nav{margin:30px 0 18px;gap:24px;justify-content:space-between}
+main .q-nav .btn{background:#C9963A;color:#130F2A;border:0;border-radius:30px;min-height:48px;padding:14px 24px;font-size:.95rem}
+main .q-res{background:transparent;padding:0;border:0;box-shadow:none}
+main .q-box{background:transparent;border:0;border-top:1px solid #DCDCE8;border-radius:0;padding:28px 0}
+main .q-cta{border:0;border-left:2px solid #C9963A;border-radius:0;padding:30px;background:#130F2A;color:#F4F3F8}
+main .q-cta h3{color:#C9963A}
+main .q-cta p{color:#DCDCE8}
+main .assessment-quotes{margin-top:32px;gap:40px}
+@media(max-width:1080px){main .athlete-hero-grid{grid-template-columns:1fr}.athlete-hero-editorial{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:start}.athlete-hero-editorial .athlete-priorities{margin-top:0}main .assessment-quotes{grid-template-columns:1fr;gap:32px}}
+@media(max-width:800px){main .mq-section{grid-template-columns:1fr;gap:24px}main .mq-section-head{grid-column:1;grid-row:auto}main .mq-section .mq-list,main .mq-section .category-deeper,main .mq-section .source-note{grid-column:1}main .mq-section-head p{max-width:640px}main .q-item{grid-template-columns:1fr;gap:18px}main .q-item .q-btns{margin-left:46px}main .q-choose{grid-template-columns:1fr;gap:16px}main .q-choose button{min-height:0}.freedom-stage{grid-template-columns:44px minmax(0,1fr);gap:14px 22px;padding:24px 0}.freedom-stage-label{grid-column:2}.freedom-stage-copy{grid-column:2;padding-bottom:24px;min-height:0}.freedom-number{min-width:44px;width:44px;height:44px;grid-row:1 / span 2}.freedom-stages:before{left:21px;bottom:80px}}
+@media(max-width:620px){.owner-clarity-grid{grid-template-columns:100px minmax(0,1fr);gap:22px;align-items:start}.owner-clarity .ripl-photo-frame{height:140px}main .owner-clarity blockquote p{font-size:1.5rem;line-height:1.25}.owner-clarity cite{font-size:.75rem;line-height:1.5;display:block}.athlete-hero-editorial{grid-template-columns:1fr;gap:24px}.athlete-hero-editorial .athlete-priorities{padding-top:20px}main .assessment-intro{gap:30px}main .assessment-photo-pair .ripl-photo-frame{height:auto;aspect-ratio:4/5}main .mq-hub{gap:44px}main .mq-list summary{font-size:1.35rem;padding:20px 36px 20px 0}main .mq-ans{padding-right:0}main .q-item .q-btns{margin-left:0;display:grid;grid-template-columns:1fr 1fr}main .q-pair{grid-template-columns:1fr;gap:12px}main .q-item,main .q-duel{padding:22px 0}main .q-statement{gap:12px}main .q-nav{gap:20px}main .q-nav .btn{width:auto;max-width:100%}main .q-cta{padding:24px 20px}.freedom-path-intro{margin-bottom:24px}.freedom-stage{gap:12px 18px}.freedom-role{font-size:.65rem}main .freedom-stage h3{font-size:var(--type-section)}main .assessment-quotes article{grid-template-columns:100px minmax(0,1fr)}}
+@media(prefers-reduced-motion:reduce){main .q-choose button{transition:none}}
