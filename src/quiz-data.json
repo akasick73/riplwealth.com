@@ -1,0 +1,703 @@
+{
+  "personas": {
+    "owner": {
+      "builder_bold": {
+        "label": "The Believer",
+        "identity": "Everything you make goes back into what you're creating. You'd rather bet big on yourself than hold back and wonder what you left on the table.",
+        "driver": "To build something whose value is undeniable, proof that betting everything on yourself was the right call.",
+        "strengthBullets": [
+          "Conviction in what you are building",
+          "A willingness to act",
+          "Energy for the next opportunity"
+        ],
+        "strengthBody": "You are willing to put real effort behind an idea you believe in. That can be useful when it has a clear purpose and boundaries.",
+        "pitfallHead": "Everything can become one big bet.",
+        "pitfallBody": "When most of your time and money depend on the same source, a setback there can spill into the rest of your life. Building outside it deserves a place in the plan.",
+        "next": [
+          {
+            "label": "Set a real target",
+            "text": "Work with your team to define what financial freedom actually looks like for you, so decisions get made strategically instead of emotionally."
+          },
+          {
+            "label": "Build beyond your main income source",
+            "text": "Once you have accounted for your needs and reserves, explore how to build wealth outside the work that currently pays you."
+          }
+        ],
+        "cta": "learn"
+      },
+      "builder_cautious": {
+        "label": "The Architect",
+        "identity": "You are a patient builder, intent on creating something of value but also aware of the cost if something were to go wrong.",
+        "driver": "To get where you want to go without losing it all.",
+        "strengthBullets": [
+          "Personal cushion",
+          "Thoughtful decision making",
+          "Steadiness through crisis"
+        ],
+        "strengthBody": "You tend to think through what could go wrong before committing. That can help you make deliberate choices.",
+        "pitfallHead": "The discipline can quietly become a ceiling.",
+        "pitfallBody": "Waiting for complete certainty can leave a good next step permanently on hold. The question is which risks fit the goal, and which do not.",
+        "next": [
+          {
+            "label": "Set a real target",
+            "text": "Work with your team to define what financial freedom actually looks like for you, so decisions get made strategically instead of emotionally."
+          },
+          {
+            "label": "Choose a deliberate next step",
+            "text": "Compare one opportunity with your team. Understand the downside, the costs and the job it would do before deciding."
+          }
+        ],
+        "cta": "learn"
+      },
+      "accumulator_bold": {
+        "label": "The Accelerator",
+        "identity": "More money is coming in, and you see possibilities everywhere. Your instinct is to put it to work rather than leave it sitting without a purpose.",
+        "driver": "To know every dollar coming in is being put to its best use immediately.",
+        "strengthBullets": [
+          "Locating new opportunities",
+          "Bold decision making",
+          "Strong self-belief"
+        ],
+        "strengthBody": "You are open to possibilities and willing to evaluate a new path. A clear filter can help that energy serve the bigger picture.",
+        "pitfallHead": "Finding opportunity is just the first half of the battle.",
+        "pitfallBody": "Each opportunity can sound reasonable on its own. Without a coordinated plan, the collection can bring more complexity, concentration and commitments than you intended.",
+        "next": [
+          {
+            "label": "Put a filter around opportunities",
+            "text": "Decide what an opportunity needs to do for you before evaluating it. Bring the people you trust into decisions that deserve a second perspective."
+          },
+          {
+            "label": "Get one coordinated strategy in place",
+            "text": "Find a team that can help you evaluate and orient the scattered positions you already have before adding the next one."
+          }
+        ],
+        "cta": "strategy"
+      },
+      "accumulator_cautious": {
+        "label": "The Banker",
+        "identity": "Your income is outpacing your spending, and it's creating real margin. It's likely that margin ends up just sitting in the bank, because there's never really been a plan for what to do with it.",
+        "driver": "To make sure you never go backwards, each win adding to the previous and creating additional security.",
+        "strengthBullets": [
+          "A focus on reserves",
+          "Patience before committing",
+          "Money available for a deliberate next step"
+        ],
+        "strengthBody": "Having cash available can give you options. The useful next question is how much needs to stay ready and what the rest is meant to do.",
+        "pitfallHead": "Safety can quietly become standing still.",
+        "pitfallBody": "Cash has a job, but keeping every dollar there indefinitely can create its own tradeoffs, including inflation and missed opportunities. A clear cash target helps separate reserves from money for longer-term goals.",
+        "next": [
+          {
+            "label": "Give your cash a number",
+            "text": "Account for spending, taxes, upcoming commitments and an appropriate reserve. Decide what needs to stay available before investing anything else."
+          },
+          {
+            "label": "Organize the rest by when you need it",
+            "text": "Connect your accounts and investments to Today, Tomorrow and Beyond. Compare costs, access and risk before making a move."
+          }
+        ],
+        "cta": "strategy"
+      },
+      "navigator_bold": {
+        "label": "The Pioneer",
+        "identity": "You're in the middle of a major transition and have big money decisions to make. Your first instinct is to move, deploy, act, as the cost of missing out on growth feels more significant than the risk of making a bad decision.",
+        "driver": "To be moving forward, pursuing the new thing while trusting your talents and abilities.",
+        "strengthBullets": [
+          "Deep conviction",
+          "Quick action",
+          "Purpose-forward thinking"
+        ],
+        "strengthBody": "You are willing to take action when life changes. Pair that energy with enough time to understand the options.",
+        "pitfallHead": "A new chapter deserves a fresh plan.",
+        "pitfallBody": "The instincts that worked in the last stage may not fit this one. Before committing, understand deadlines, taxes and what would be difficult to undo.",
+        "next": [
+          {
+            "label": "Separate urgent from important",
+            "text": "Handle real deadlines first. Give major choices a deliberate review window that fits the situation, rather than rushing or ignoring a deadline."
+          },
+          {
+            "label": "Get everyone in the same conversation",
+            "text": "Coordinate the people advising you before assets move or commitments are made. Compare more than one path."
+          }
+        ],
+        "cta": "strategy"
+      },
+      "navigator_cautious": {
+        "label": "The Guardian",
+        "identity": "You're in the middle of a major transition and have big money decisions to make. Your instinct is to protect and wait, often meaning the money sits entirely in cash while you “figure it out.”",
+        "driver": "To protect what took this long to build, long enough to be certain the next move is actually the right one.",
+        "strengthBullets": [
+          "Patience before a major decision",
+          "Respect for what you have built",
+          "Willingness to look before moving"
+        ],
+        "strengthBody": "A pause can create room to think clearly. It works best when you also know what needs attention and when.",
+        "pitfallHead": "“Figuring it out” can quietly become permanent.",
+        "pitfallBody": "A temporary pause can become years without a decision. Keeping money available may be appropriate now, but it still needs a purpose and a review date.",
+        "next": [
+          {
+            "label": "Name the next decision",
+            "text": "Work with your team to understand the choices, deadlines and tradeoffs. Set a review date so the pause has a purpose."
+          },
+          {
+            "label": "Build in stages",
+            "text": "You do not have to move everything at once. Separate near-term needs from money with more time, then take deliberate steps."
+          }
+        ],
+        "cta": "strategy"
+      },
+      "steward": {
+        "label": "The Benefactor",
+        "identity": "You are thinking beyond yourself: family, community and the causes you care about. What your money can make possible matters as much as the balance.",
+        "driver": "To maximize the external potential of everything you've built.",
+        "strengthBullets": [
+          "A purpose beyond yourself",
+          "Attention to family and community",
+          "A reason for the money"
+        ],
+        "strengthBody": "Knowing who and what you care about gives the plan direction. Your own foundation still matters, even when helping others is the priority.",
+        "pitfallHead": "Intention without structure.",
+        "pitfallBody": "Good intentions need a workable structure. Giving without checking your own needs, or keeping a family plan to yourself, can undermine the impact you want to make.",
+        "next": [
+          {
+            "label": "Host a family meeting",
+            "text": "Bring together every generation who's part of the plan, so everyone understands the structure and their role in it before it's ever needed."
+          },
+          {
+            "label": "Look at every angle",
+            "text": "Work with your team to run your options through the lens of tax, structure, cost, and connection, all four together, not just one. That combination is often what actually changes the outcome."
+          }
+        ],
+        "cta": "strategy"
+      }
+    },
+    "career": {
+      "builder_bold": {
+        "label": "The Believer",
+        "identity": "You are putting your energy into your skills, your career and the life you are building. You would rather back yourself than wonder what you left on the table.",
+        "driver": "To turn the work you are doing now into more choices later.",
+        "strengthBullets": [
+          "Conviction in what you are building",
+          "A willingness to act",
+          "Energy for the next opportunity"
+        ],
+        "strengthBody": "You are willing to put real effort behind an idea you believe in. That can be useful when it has a clear purpose and boundaries.",
+        "pitfallHead": "Everything can become one big bet.",
+        "pitfallBody": "Your paycheck can become the answer to every future need. As room opens up, build a financial foundation that does not depend on always working more.",
+        "next": [
+          {
+            "label": "Set a real target",
+            "text": "Work with your team to define what financial freedom actually looks like for you, so decisions get made strategically instead of emotionally."
+          },
+          {
+            "label": "Build beyond your main income source",
+            "text": "Once you have accounted for your needs and reserves, explore how to build wealth outside the work that currently pays you."
+          }
+        ],
+        "cta": "learn"
+      },
+      "builder_cautious": {
+        "label": "The Architect",
+        "identity": "You are building your career carefully and want your next financial step to make sense. Stability matters, even as you work toward more.",
+        "driver": "To move forward without putting your foundation on the line.",
+        "strengthBullets": [
+          "Personal cushion",
+          "Thoughtful decision making",
+          "Steadiness through crisis"
+        ],
+        "strengthBody": "You tend to think through what could go wrong before committing. That can help you make deliberate choices.",
+        "pitfallHead": "The discipline can quietly become a ceiling.",
+        "pitfallBody": "Waiting for complete certainty can leave a good next step permanently on hold. The question is which risks fit the goal, and which do not.",
+        "next": [
+          {
+            "label": "Set a real target",
+            "text": "Work with your team to define what financial freedom actually looks like for you, so decisions get made strategically instead of emotionally."
+          },
+          {
+            "label": "Choose a deliberate next step",
+            "text": "Compare one opportunity with your team. Understand the downside, the costs and the job it would do before deciding."
+          }
+        ],
+        "cta": "learn"
+      },
+      "accumulator_bold": {
+        "label": "The Accelerator",
+        "identity": "More money is coming in, and you see possibilities everywhere. Your instinct is to put it to work rather than leave it sitting without a purpose.",
+        "driver": "To know every dollar coming in is being put to its best use immediately.",
+        "strengthBullets": [
+          "Locating new opportunities",
+          "Bold decision making",
+          "Strong self-belief"
+        ],
+        "strengthBody": "You are open to possibilities and willing to evaluate a new path. A clear filter can help that energy serve the bigger picture.",
+        "pitfallHead": "Finding opportunity is just the first half of the battle.",
+        "pitfallBody": "A bonus, a new investment or an equity opportunity can pull you in different directions. Without a shared purpose, the accounts and commitments can grow faster than your clarity.",
+        "next": [
+          {
+            "label": "Put a filter around opportunities",
+            "text": "Decide what an opportunity needs to do for you before evaluating it. Bring the people you trust into decisions that deserve a second perspective."
+          },
+          {
+            "label": "Get one coordinated strategy in place",
+            "text": "Find a team that can help you evaluate and orient the scattered positions you already have before adding the next one."
+          }
+        ],
+        "cta": "strategy"
+      },
+      "accumulator_cautious": {
+        "label": "The Banker",
+        "identity": "Your income is creating some breathing room, and keeping money available feels reassuring. You may not yet have a clear job for what is building up.",
+        "driver": "To make sure you never go backwards, each win adding to the previous and creating additional security.",
+        "strengthBullets": [
+          "A focus on reserves",
+          "Patience before committing",
+          "Money available for a deliberate next step"
+        ],
+        "strengthBody": "Having cash available can give you options. The useful next question is how much needs to stay ready and what the rest is meant to do.",
+        "pitfallHead": "Safety can quietly become standing still.",
+        "pitfallBody": "Cash has a job, but keeping every dollar there indefinitely can create its own tradeoffs, including inflation and missed opportunities. A clear cash target helps separate reserves from money for longer-term goals.",
+        "next": [
+          {
+            "label": "Give your cash a number",
+            "text": "Account for spending, taxes, upcoming commitments and an appropriate reserve. Decide what needs to stay available before investing anything else."
+          },
+          {
+            "label": "Organize the rest by when you need it",
+            "text": "Connect your accounts and investments to Today, Tomorrow and Beyond. Compare costs, access and risk before making a move."
+          }
+        ],
+        "cta": "strategy"
+      },
+      "navigator_bold": {
+        "label": "The Pioneer",
+        "identity": "A new role, retirement, an inheritance or another life change has brought new decisions. You are ready to move forward, and you want your money moving with you.",
+        "driver": "To be moving forward, pursuing the new thing while trusting your talents and abilities.",
+        "strengthBullets": [
+          "Deep conviction",
+          "Quick action",
+          "Purpose-forward thinking"
+        ],
+        "strengthBody": "You are willing to take action when life changes. Pair that energy with enough time to understand the options.",
+        "pitfallHead": "A new chapter deserves a fresh plan.",
+        "pitfallBody": "The instincts that worked in the last stage may not fit this one. Before committing, understand deadlines, taxes and what would be difficult to undo.",
+        "next": [
+          {
+            "label": "Separate urgent from important",
+            "text": "Handle real deadlines first. Give major choices a deliberate review window that fits the situation, rather than rushing or ignoring a deadline."
+          },
+          {
+            "label": "Get everyone in the same conversation",
+            "text": "Coordinate the people advising you before assets move or commitments are made. Compare more than one path."
+          }
+        ],
+        "cta": "strategy"
+      },
+      "navigator_cautious": {
+        "label": "The Guardian",
+        "identity": "A new role, retirement, an inheritance or another life change has brought new decisions. You want to understand the next step before putting what you have built at risk.",
+        "driver": "To protect what took this long to build, long enough to be certain the next move is actually the right one.",
+        "strengthBullets": [
+          "Patience before a major decision",
+          "Respect for what you have built",
+          "Willingness to look before moving"
+        ],
+        "strengthBody": "A pause can create room to think clearly. It works best when you also know what needs attention and when.",
+        "pitfallHead": "“Figuring it out” can quietly become permanent.",
+        "pitfallBody": "A temporary pause can become years without a decision. Keeping money available may be appropriate now, but it still needs a purpose and a review date.",
+        "next": [
+          {
+            "label": "Name the next decision",
+            "text": "Work with your team to understand the choices, deadlines and tradeoffs. Set a review date so the pause has a purpose."
+          },
+          {
+            "label": "Build in stages",
+            "text": "You do not have to move everything at once. Separate near-term needs from money with more time, then take deliberate steps."
+          }
+        ],
+        "cta": "strategy"
+      },
+      "steward": {
+        "label": "The Benefactor",
+        "identity": "You are thinking beyond yourself: family, community and the causes you care about. What your money can make possible matters as much as the balance.",
+        "driver": "To maximize the external potential of everything you've built.",
+        "strengthBullets": [
+          "A purpose beyond yourself",
+          "Attention to family and community",
+          "A reason for the money"
+        ],
+        "strengthBody": "Knowing who and what you care about gives the plan direction. Your own foundation still matters, even when helping others is the priority.",
+        "pitfallHead": "Intention without structure.",
+        "pitfallBody": "Good intentions need a workable structure. Giving without checking your own needs, or keeping a family plan to yourself, can undermine the impact you want to make.",
+        "next": [
+          {
+            "label": "Host a family meeting",
+            "text": "Bring together every generation who's part of the plan, so everyone understands the structure and their role in it before it's ever needed."
+          },
+          {
+            "label": "Look at every angle",
+            "text": "Work with your team to run your options through the lens of tax, structure, cost, and connection, all four together, not just one. That combination is often what actually changes the outcome."
+          }
+        ],
+        "cta": "strategy"
+      }
+    },
+    "athlete": {
+      "builder_bold": {
+        "label": "The Believer",
+        "identity": "You are backing yourself: your training, your sport and the opportunities in front of you. The financial future can feel like something to sort out after the next breakthrough.",
+        "driver": "To make the most of your talent and the opportunity you have earned.",
+        "strengthBullets": [
+          "Conviction in what you are building",
+          "A willingness to act",
+          "Energy for the next opportunity"
+        ],
+        "strengthBody": "You are willing to put real effort behind an idea you believe in. That can be useful when it has a clear purpose and boundaries.",
+        "pitfallHead": "Everything can become one big bet.",
+        "pitfallBody": "When the plan depends on the next deal, there may be little room for an injury, a quiet season or a change in direction. Build a base alongside the work you are putting into your sport.",
+        "next": [
+          {
+            "label": "Know what is yours to spend",
+            "text": "Separate taxes, fees, regular commitments and reserves from the money available for life today."
+          },
+          {
+            "label": "Build your base alongside your sport",
+            "text": "Start with a realistic plan for saving and investing when there is money available. It does not need to wait for the biggest contract."
+          }
+        ],
+        "cta": "learn"
+      },
+      "builder_cautious": {
+        "label": "The Architect",
+        "identity": "You are focused on your sport, while paying attention to what you can afford and what happens if things change. You want a stronger foundation before the next big move.",
+        "driver": "To keep building your career without losing your footing.",
+        "strengthBullets": [
+          "Personal cushion",
+          "Thoughtful decision making",
+          "Steadiness through crisis"
+        ],
+        "strengthBody": "You tend to think through what could go wrong before committing. That can help you make deliberate choices.",
+        "pitfallHead": "The discipline can quietly become a ceiling.",
+        "pitfallBody": "Waiting for complete certainty can leave a good next step permanently on hold. The question is which risks fit the goal, and which do not.",
+        "next": [
+          {
+            "label": "Know what is yours to spend",
+            "text": "Separate taxes, fees, regular commitments and reserves from the money available for life today."
+          },
+          {
+            "label": "Build your base alongside your sport",
+            "text": "Start with a realistic plan for saving and investing when there is money available. It does not need to wait for the biggest contract."
+          }
+        ],
+        "cta": "learn"
+      },
+      "accumulator_bold": {
+        "label": "The Accelerator",
+        "identity": "New money is creating new possibilities. You are interested in investments, ventures and opportunities, and you want the money doing something useful.",
+        "driver": "To know every dollar coming in is being put to its best use immediately.",
+        "strengthBullets": [
+          "Locating new opportunities",
+          "Bold decision making",
+          "Strong self-belief"
+        ],
+        "strengthBody": "You are open to possibilities and willing to evaluate a new path. A clear filter can help that energy serve the bigger picture.",
+        "pitfallHead": "Finding opportunity is just the first half of the battle.",
+        "pitfallBody": "A deal, a property and a friend’s business can each sound promising. Add them together without a plan and too much of your money can become tied up when you need it.",
+        "next": [
+          {
+            "label": "Put the whole picture in one place",
+            "text": "Connect salary, NIL payments, endorsements, spending and taxes. Bring your agent, attorney and tax strategist into the decisions that involve them."
+          },
+          {
+            "label": "Give the next dollar a job",
+            "text": "Decide what stays available, what builds your investment business and what you want to give. Review opportunities against that plan."
+          }
+        ],
+        "cta": "strategy"
+      },
+      "accumulator_cautious": {
+        "label": "The Banker",
+        "identity": "The payments are growing, and keeping the money in the bank feels like the sensible move. The missing piece may be deciding what is yours to spend, what belongs to taxes and what can build your future.",
+        "driver": "To make sure you never go backwards, each win adding to the previous and creating additional security.",
+        "strengthBullets": [
+          "A focus on reserves",
+          "Patience before committing",
+          "Money available for a deliberate next step"
+        ],
+        "strengthBody": "Having cash available can give you options. The useful next question is how much needs to stay ready and what the rest is meant to do.",
+        "pitfallHead": "Safety can quietly become standing still.",
+        "pitfallBody": "Cash has a job, but keeping every dollar there indefinitely can create its own tradeoffs, including inflation and missed opportunities. A clear cash target helps separate reserves from money for longer-term goals.",
+        "next": [
+          {
+            "label": "Put the whole picture in one place",
+            "text": "Connect salary, NIL payments, endorsements, spending and taxes. Bring your agent, attorney and tax strategist into the decisions that involve them."
+          },
+          {
+            "label": "Give the next dollar a job",
+            "text": "Decide what stays available, what builds your investment business and what you want to give. Review opportunities against that plan."
+          }
+        ],
+        "cta": "strategy"
+      },
+      "navigator_bold": {
+        "label": "The Pioneer",
+        "identity": "A contract, transfer, major payment or the end of your playing career has brought a new set of choices. You want to make the most of this moment and are ready to act.",
+        "driver": "To be moving forward, pursuing the new thing while trusting your talents and abilities.",
+        "strengthBullets": [
+          "Deep conviction",
+          "Quick action",
+          "Purpose-forward thinking"
+        ],
+        "strengthBody": "You are willing to take action when life changes. Pair that energy with enough time to understand the options.",
+        "pitfallHead": "A new chapter deserves a fresh plan.",
+        "pitfallBody": "The instincts that worked in the last stage may not fit this one. Before committing, understand deadlines, taxes and what would be difficult to undo.",
+        "next": [
+          {
+            "label": "Map the deadlines and choices",
+            "text": "A new contract or a new chapter can change taxes, spending and your timeline. Find out what needs attention before making commitments."
+          },
+          {
+            "label": "Build options beyond playing",
+            "text": "Connect near-term cash with a plan for the next stage. You do not need to move every dollar or decide your entire future at once."
+          }
+        ],
+        "cta": "strategy"
+      },
+      "navigator_cautious": {
+        "label": "The Guardian",
+        "identity": "A contract, transfer, major payment or the end of your playing career has brought a new set of choices. You want to protect this opportunity while you work out what comes next.",
+        "driver": "To protect what took this long to build, long enough to be certain the next move is actually the right one.",
+        "strengthBullets": [
+          "Patience before a major decision",
+          "Respect for what you have built",
+          "Willingness to look before moving"
+        ],
+        "strengthBody": "A pause can create room to think clearly. It works best when you also know what needs attention and when.",
+        "pitfallHead": "“Figuring it out” can quietly become permanent.",
+        "pitfallBody": "A temporary pause can become years without a decision. Keeping money available may be appropriate now, but it still needs a purpose and a review date.",
+        "next": [
+          {
+            "label": "Map the deadlines and choices",
+            "text": "A new contract or a new chapter can change taxes, spending and your timeline. Find out what needs attention before making commitments."
+          },
+          {
+            "label": "Build options beyond playing",
+            "text": "Connect near-term cash with a plan for the next stage. You do not need to move every dollar or decide your entire future at once."
+          }
+        ],
+        "cta": "strategy"
+      },
+      "steward": {
+        "label": "The Benefactor",
+        "identity": "You're already thinking beyond yourself: your family, your community, and the people who helped you get here.",
+        "driver": "To make sure the people who got you here share in what you've earned.",
+        "strengthBullets": [
+          "Thinking beyond yourself",
+          "Loyalty to your people",
+          "A reason bigger than the money"
+        ],
+        "strengthBody": "You already know who this is for. That makes every other decision easier.",
+        "pitfallHead": "Giving before your own base is built.",
+        "pitfallBody": "The income from your sport won't last forever. If the giving gets ahead of the building, it can run out for everybody, including the people you want to help.",
+        "next": [
+          {
+            "label": "Build a giving plan with boundaries",
+            "text": "Work with your team to decide who you help, how much, and how often, so you can keep saying yes for a long time."
+          },
+          {
+            "label": "Build your own base first",
+            "text": "Set what goes toward your investment business before anything goes out. That is what keeps the giving going after you're done playing."
+          }
+        ],
+        "cta": "strategy"
+      }
+    }
+  },
+  "statements": {
+    "owner": [
+      [
+        "navigator",
+        "I'm either selling my business or just did, and I'm trying to figure out my purpose in this new season."
+      ],
+      [
+        "builder",
+        "All of my extra cash gets reinvested back into my business right now."
+      ],
+      [
+        "steward",
+        "Growing my business isn't the primary goal anymore, I'm more focused on what it can do for my family or the causes I care about."
+      ],
+      [
+        "accumulator",
+        "My business looks good on paper, but I don't feel as far along as the numbers suggest."
+      ],
+      [
+        "builder",
+        "I'm able to pay myself enough to cover my basic needs but don't have much room for savings at the moment."
+      ],
+      [
+        "navigator",
+        "Selling my business, and figuring out what to do with the money from it, is the biggest decision in front of me right now."
+      ],
+      [
+        "steward",
+        "When I think about my business and what it's worth, I think more about who I'll leave it to than about growing it further."
+      ],
+      [
+        "accumulator",
+        "My business is throwing off more cash than I know what to do with."
+      ],
+      [
+        "builder",
+        "Most of what I own is tied up in my business, not saved or set aside for the future."
+      ],
+      [
+        "navigator",
+        "I have more money than I've ever had, and I'm nervous about making the wrong move."
+      ],
+      [
+        "accumulator",
+        "My assets are scattered across different places, and I'm not sure they're all working the way I want."
+      ],
+      [
+        "steward",
+        "I'm not sure if my family knows my plan for everything I have built."
+      ]
+    ],
+    "athlete": [
+      [
+        "navigator",
+        "My playing days are ending or just did, and I'm trying to figure out my purpose in this new season."
+      ],
+      [
+        "builder",
+        "Right now, most of my money goes toward my life, my training and my sport. Saving for later is still taking shape."
+      ],
+      [
+        "steward",
+        "Earning more isn't the primary goal anymore, I'm more focused on what my money can do for my family or the causes I care about."
+      ],
+      [
+        "accumulator",
+        "The income looks good on paper, but I do not feel as organized or as far along as I expected."
+      ],
+      [
+        "builder",
+        "I'm making enough to cover my basic needs but don't have much room for savings at the moment."
+      ],
+      [
+        "navigator",
+        "I have a big decision to make about a new contract or payment, and I'm trying to figure out what to do with it."
+      ],
+      [
+        "steward",
+        "I think more about who my money can help than about what it can do for me."
+      ],
+      [
+        "accumulator",
+        "More money is coming in than I know what to do with."
+      ],
+      [
+        "builder",
+        "I am still building toward the earning opportunity that would give me more breathing room."
+      ],
+      [
+        "navigator",
+        "I have more money than I've ever had, and I'm nervous about making the wrong move."
+      ],
+      [
+        "accumulator",
+        "My money is scattered across different places, and I'm not sure it's all working the way I want."
+      ],
+      [
+        "steward",
+        "I'm getting more asks for money from family and friends than I've ever gotten, and I'm trying to figure out what to do."
+      ]
+    ],
+    "career": [
+      [
+        "navigator",
+        "I'm retiring soon or just did, and I'm trying to figure out my purpose in this new season."
+      ],
+      [
+        "builder",
+        "All of my money goes toward my needs and my wants, and I don't have a lot left over."
+      ],
+      [
+        "steward",
+        "Earning more isn't the primary goal anymore, I'm more focused on what my money can do for my family or the causes I care about."
+      ],
+      [
+        "accumulator",
+        "My income looks good on paper, but I don't feel as far along as the numbers suggest."
+      ],
+      [
+        "builder",
+        "Most of my time and energy is going into building my skills and my career right now."
+      ],
+      [
+        "navigator",
+        "I have a big decision to make about a change like retirement, an inheritance, or a new role, and I'm trying to figure out what to do."
+      ],
+      [
+        "steward",
+        "When I think about what I've saved, I think more about who I'll leave it to than about growing it further."
+      ],
+      [
+        "accumulator",
+        "More money is coming in than I know what to do with."
+      ],
+      [
+        "builder",
+        "I haven't started saving or investing in a real way yet."
+      ],
+      [
+        "navigator",
+        "I have more money than I've ever had, and I'm nervous about making the wrong move."
+      ],
+      [
+        "accumulator",
+        "My money is scattered across different places, and I'm not sure it's all working the way I want."
+      ],
+      [
+        "steward",
+        "I want my money to do more for the people and causes I care about."
+      ]
+    ]
+  },
+  "duels": [
+    [
+      "I like seeing my money grow and exploring where it could work harder.",
+      "I like keeping money available and knowing what I can count on."
+    ],
+    [
+      "I enjoy evaluating new opportunities.",
+      "I prefer a familiar structure before trying something new."
+    ],
+    [
+      "I am comfortable committing money for longer when the opportunity fits.",
+      "I place a high value on being able to access my money."
+    ],
+    [
+      "I can tolerate some ups and downs when I understand the longer-term plan.",
+      "Stability matters more to me than pursuing additional upside."
+    ],
+    [
+      "I tend to act once I understand the opportunity.",
+      "I tend to give a decision more time before committing."
+    ]
+  ],
+  "icons": {
+    "builder_bold": "<svg viewBox=\"0 0 24 24\" fill=\"none\"><path d=\"M12 21c-3.5 0-6-2.5-6-5.8 0-2.6 1.8-4.3 3-6.4.7-1.2.9-2.4.6-3.8 2.4 1 4.8 3.3 4.8 6.6 0 .9-.2 1.6-.4 2.2.9-.5 1.6-1.4 1.9-2.6 1 1.4 1.6 3 1.6 4 0 3.3-2.5 5.8-5.5 5.8z\" stroke=\"#C9963A\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/></svg>",
+    "builder_cautious": "<svg viewBox=\"0 0 24 24\" fill=\"none\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\" stroke=\"#6355B8\" stroke-width=\"1.5\"/><path d=\"M4 12h16M12 4v16\" stroke=\"#6355B8\" stroke-width=\"1.1\"/><circle cx=\"12\" cy=\"12\" r=\"2.4\" stroke=\"#C9963A\" stroke-width=\"1.4\"/></svg>",
+    "accumulator_bold": "<svg viewBox=\"0 0 24 24\" fill=\"none\"><path d=\"M4 9h9M4 15h6\" stroke=\"#8179A6\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><path d=\"M13 6l7 6-7 6\" stroke=\"#C9963A\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",
+    "accumulator_cautious": "<svg viewBox=\"0 0 24 24\" fill=\"none\"><path d=\"M3 9l9-5 9 5\" stroke=\"#C9963A\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M4 9h16M5 9v8M9 9v8M15 9v8M19 9v8\" stroke=\"#C9963A\" stroke-width=\"1.3\" stroke-linecap=\"round\"/><path d=\"M3 19.5h18\" stroke=\"#8179A6\" stroke-width=\"1.4\" stroke-linecap=\"round\"/></svg>",
+    "navigator_bold": "<svg viewBox=\"0 0 24 24\" fill=\"none\"><circle cx=\"12\" cy=\"12\" r=\"9\" stroke=\"#6355B8\" stroke-width=\"1.5\"/><path d=\"M15.5 8.5l-2.2 5-5 2.2 2.2-5 5-2.2z\" stroke=\"#C9963A\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><circle cx=\"12\" cy=\"12\" r=\"1\" fill=\"#C9963A\"/></svg>",
+    "navigator_cautious": "<svg viewBox=\"0 0 24 24\" fill=\"none\"><path d=\"M12 3l7 3v6c0 4.5-3 7.7-7 9-4-1.3-7-4.5-7-9V6l7-3z\" stroke=\"#6355B8\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/></svg>",
+    "steward": "<svg viewBox=\"0 0 24 24\" fill=\"none\"><circle cx=\"12\" cy=\"12\" r=\"4\" stroke=\"#C9963A\" stroke-width=\"1.5\"/><path d=\"M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2\" stroke=\"#C9963A\" stroke-width=\"1.4\" stroke-linecap=\"round\"/></svg>"
+  },
+  "mindsets": {
+    "builder": "Builder",
+    "accumulator": "Accumulator",
+    "navigator": "Navigator",
+    "steward": "Steward"
+  }
+}
