@@ -1,4 +1,4 @@
-# RIPL V11 | Service clarity, site search and portfolio illustration
+# RIPL V11.1 | Service clarity, site search and portfolio illustration
 
 Complete cumulative source package retaining the V10.3 homepage cleanup, V10.2 winding Financial Freedom path and previous site content and visuals.
 
@@ -25,3 +25,10 @@ Desktop/mobile browser visual QA and live form delivery were not performed. Revi
 
 Audit follow-ups remain separate:
 Team background confirmation, title consistency, educational content reviewer attribution/review dates, live performance/accessibility testing and public indexing verification were not represented as completed. No unverified biography or review date was invented.
+
+V11.1 update:
+- Added Compound calculator to the shared search suggestions.
+- Restored keyboard and touch sliders for starting amount, years, annual rate and additional contributions, alongside editable numeric fields. Results and the annual table update immediately.
+- Retained $500,000 / 15 years / 8% / $0 / monthly defaults and annual compounding.
+- Search now uses page titles so the compound calculator suggestion returns the calculator first.
+- Calculator control checks passed for slider/field synchronization, live results, manual amounts above the initial slider range, invalid-input recovery and negative-rate illustrations. Search checks passed for ten representative queries and existing interface behavior.

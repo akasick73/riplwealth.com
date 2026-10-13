@@ -1,4 +1,4 @@
-# RIPL Wealth | V11
+# RIPL Wealth | V11.1
 
 ## Load into the existing project
 
@@ -22,6 +22,7 @@ npm install
 npm run build
 node tests/v11.mjs
 node tests/search-ui.mjs
+node tests/calculator-controls.mjs
 
 For local development, run npm run build first to generate the search index, then use npm run preview to exercise search against the full built site.
 

@@ -6,7 +6,26 @@ if(root){
   const compact=new Intl.NumberFormat('en-US',{notation:'compact',maximumFractionDigits:1});
   const ns='http://www.w3.org/2000/svg';
   const svgElement=(name,attrs,text)=>{const el=document.createElementNS(ns,name);Object.entries(attrs).forEach(([k,v])=>el.setAttribute(k,String(v)));if(text!==undefined)el.textContent=text;return el;};
+  const sliders=Array.from(form.querySelectorAll('[data-calc-slider]'));
+  function syncSliders(){
+    for(const slider of sliders){
+      const field=form.querySelector(`[name="${slider.dataset.calcSlider}"]`);
+      if(field.value===''||!field.checkValidity())continue;
+      const value=Number(field.value);
+      slider.min=String(Math.min(Number(slider.dataset.baseMin),value));
+      slider.max=String(Math.max(Number(slider.dataset.baseMax),value));
+      slider.value=String(value);
+      const shown=slider.dataset.calcSlider==='rate'?`${value}%`:slider.dataset.calcSlider==='years'?`${value} years`:currency.format(value);
+      slider.setAttribute('aria-valuetext',shown);
+    }
+  }
+  function handleControl(event){
+    const slider=event.target.closest('[data-calc-slider]');
+    if(slider){form.querySelector(`[name="${slider.dataset.calcSlider}"]`).value=slider.value;}
+    update();
+  }
   function update(){
+    syncSliders();
     try{
       if(!form.checkValidity())throw new Error('Check the fields: amounts must be nonnegative, years a whole number from 0 to 60, and the assumed rate between −100% and 30%.');
       const f=new FormData(form),params={principal:Number(f.get('principal')),contribution:Number(f.get('contribution')),frequency:String(f.get('frequency')),rate:Number(f.get('rate')),years:Number(f.get('years'))};
@@ -35,5 +54,5 @@ if(root){
     }catch(e){results.hidden=true;error.textContent=e instanceof RangeError?'Please enter values within the ranges shown.':e.message;}
   }
   form.addEventListener('submit',e=>{e.preventDefault();update();});
-  form.addEventListener('input',update);form.addEventListener('change',update);update();
+  form.addEventListener('input',handleControl);form.addEventListener('change',handleControl);update();
 }

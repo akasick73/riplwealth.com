@@ -1,6 +1,6 @@
 ---
 const {prefix='site-search'}=Astro.props;
-const suggestions=['Business cash','Taxes','Retirement','Structured notes','SAGE'];
+const suggestions=['Business cash','Taxes','Retirement','Structured notes','SAGE','Compound calculator'];
 ---
 <div class="search-surface" data-search-surface>
 <form role="search" action="/search/" method="get" data-search-form><label for={`${prefix}-query`}>What’s on your mind?</label><div class="search-input-row"><input type="search" id={`${prefix}-query`} name="q" placeholder="Search questions, services and people" autocomplete="off" maxlength="160" data-search-input/><button type="submit" class="btn">Search</button></div></form>

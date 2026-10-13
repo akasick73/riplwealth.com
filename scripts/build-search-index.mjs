@@ -15,7 +15,8 @@ for(const path of (await files(root)).sort()){
  const url=rel==='index.html'?'/':'/'+rel.replace(/index\.html$/,'');
  const tree=parse(await readFile(path,'utf8'));
  const main=all(tree,n=>n.tagName==='main')[0];if(!main)continue;
- const title=tidy(text(all(main,n=>n.tagName==='h1')[0]||main));
+ const pageTitle=all(tree,n=>n.tagName==='title')[0];
+ const title=tidy(text(pageTitle||all(main,n=>n.tagName==='h1')[0]||main)).replace(/\s*\| RIPL Wealth$/,'');
  const description=attrs(all(tree,n=>n.tagName==='meta'&&attrs(n).name==='description')[0]||{}).content||'';
  const category=url.startsWith('/team/')?'Our Team':url.startsWith('/money-questions/')?'Money Questions':url.startsWith('/business-owners/')?'Business Owners':url.startsWith('/structured-notes/')?'Structured Notes':url.startsWith('/concentrated-wealth/')?'Company Stock':'RIPL';
  documents.push({url,title,description,category,text:tidy(text(main)).slice(0,30000)});
