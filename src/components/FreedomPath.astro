@@ -1,0 +1,48 @@
+---
+import '../freedom-path.css';
+const stages = [
+  {name:'Margin',role:'Yours to accomplish',copy:'Create money above and beyond what you need to live on day to day. Make more or spend less, ideally both.'},
+  {name:'Strategy',role:'Where we come in',copy:'Create a clear target to aim for and give every dollar a job.',milestone:'This is where our team comes in.'},
+  {name:'Growth',role:'Where we come in',copy:'Grow in a way that brings you closer and closer to your target.'},
+  {name:'Freedom',role:'More choice. More time.',copy:'You now have financial freedom at your fingertips. If you choose to activate it, your investment business becomes an income stream that helps free up your time.',milestone:'Work becomes optional.'}
+];
+---
+<div class="ripl-journey" id="freedom-roadmap">
+  <div class="journey-intro"><div class="eyebrow">THE PATH TO FINANCIAL FREEDOM</div><h2>Build toward a life<br class="journey-title-break"/> with more options.</h2><span class="journey-title-rule" aria-hidden="true"></span></div>
+  <ol class="journey-stages" role="list">
+    {stages.map((stage,index) => (
+      <li class:list={['journey-stage',index%2===0?'journey-left':'journey-right']}>
+        <svg class="journey-road journey-road-desktop" viewBox="0 0 1000 300" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+          <path class="journey-road-edge" d={index%2===0?'M500 0 C500 60 350 65 350 150 S500 235 500 300':'M500 0 C500 60 650 65 650 150 S500 235 500 300'}/>
+          <path class="journey-road-surface" d={index%2===0?'M500 0 C500 60 350 65 350 150 S500 235 500 300':'M500 0 C500 60 650 65 650 150 S500 235 500 300'}/>
+          <path class="journey-road-line" d={index%2===0?'M500 0 C500 60 350 65 350 150 S500 235 500 300':'M500 0 C500 60 650 65 650 150 S500 235 500 300'}/>
+        </svg>
+        <svg class="journey-road journey-road-mobile" viewBox="0 0 60 300" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+          <path class="journey-road-edge" d="M30 0 C30 55 22 65 22 120 S38 190 38 230 S30 280 30 300"/>
+          <path class="journey-road-surface" d="M30 0 C30 55 22 65 22 120 S38 190 38 230 S30 280 30 300"/>
+          <path class="journey-road-line" d="M30 0 C30 55 22 65 22 120 S38 190 38 230 S30 280 30 300"/>
+        </svg>
+        <span class="journey-number" aria-hidden="true">0{index+1}</span>
+        <div class="journey-stage-text">
+          <span class="journey-role">{stage.role}</span><h3>{stage.name}</h3>
+          <span class="journey-stage-rule" aria-hidden="true"></span><p>{stage.copy}</p>
+        </div>
+        {stage.milestone && <p class="journey-milestone">{stage.milestone}</p>}
+      </li>
+    ))}
+    <li class="journey-impact-stage">
+      <svg class="journey-opening" viewBox="0 0 1000 120" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+        <path fill="#2A2250" d="M0 118 C170 118 310 110 450 75 C480 56 484 36 484 0 L516 0 C516 36 520 56 550 75 C690 110 830 118 1000 118 L1000 120 L0 120 Z"/>
+        <path fill="none" stroke="#C9963A" stroke-width="1.5" d="M0 118 C170 118 310 110 450 75 C480 56 484 36 484 0 M516 0 C516 36 520 56 550 75 C690 110 830 118 1000 118"/>
+        <path class="journey-road-line" d="M500 0 L500 85"/>
+      </svg>
+      <div class="journey-impact">
+        <div class="journey-ripples" aria-hidden="true">
+          <svg viewBox="0 0 660 150" focusable="false"><path d="M330 0 L330 65" stroke="#C9963A" stroke-width="1"/><ellipse cx="330" cy="70" rx="310" ry="66"/><ellipse cx="330" cy="70" rx="236" ry="50"/><ellipse cx="330" cy="70" rx="164" ry="35"/><ellipse cx="330" cy="70" rx="94" ry="20"/></svg>
+          <span class="journey-number journey-impact-number">05</span>
+        </div>
+        <div class="journey-impact-copy"><h3>Impact</h3><span class="journey-stage-rule" aria-hidden="true"></span><p>Our goal is for you to make an impact throughout your career, your business, and your life. Once you achieve financial freedom, new impact doors open for you.</p><a class="btn" href="/contact/">Talk to the Team <span aria-hidden="true">→</span></a></div>
+      </div>
+    </li>
+  </ol>
+</div>

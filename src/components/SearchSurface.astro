@@ -1,0 +1,11 @@
+---
+const {prefix='site-search'}=Astro.props;
+const suggestions=['Business cash','Taxes','Retirement','Structured notes','SAGE'];
+---
+<div class="search-surface" data-search-surface>
+<form role="search" action="/search/" method="get" data-search-form><label for={`${prefix}-query`}>What’s on your mind?</label><div class="search-input-row"><input type="search" id={`${prefix}-query`} name="q" placeholder="Search questions, services and people" autocomplete="off" maxlength="160" data-search-input/><button type="submit" class="btn">Search</button></div></form>
+<div class="search-suggestions"><span>Try:</span>{suggestions.map(q=><button type="button" data-search-suggestion={q}>{q}</button>)}</div>
+<p class="search-status" role="status" aria-live="polite" data-search-status>Search across RIPL’s pages and money questions.</p>
+<div class="search-results" data-search-results></div>
+<noscript><p>Enable JavaScript to search, or <a href="/money-questions/">browse Money Questions</a>.</p></noscript>
+</div>
