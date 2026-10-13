@@ -1,0 +1,6 @@
+---
+import SearchSurface from './SearchSurface.astro';
+import '../site-search.css';
+---
+<dialog class="site-search-dialog" id="site-search-dialog" aria-labelledby="site-search-title"><div class="search-dialog-top"><div><div class="eyebrow">FIND YOUR NEXT ANSWER</div><h2 id="site-search-title">Search RIPL</h2></div><button class="search-close" type="button" aria-label="Close search" data-close-search>×</button></div><SearchSurface prefix="dialog-search" /></dialog>
+<script>import '../site-search.js';</script>

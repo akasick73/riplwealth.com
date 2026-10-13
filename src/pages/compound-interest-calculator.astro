@@ -5,12 +5,12 @@ import Layout from '../layout.astro';
 <section class="hero"><div class="wrap"><div class="eyebrow">YOUR MONEY. TIME. A CLEARER PICTURE.</div><h1>Small decisions today.<br/><span class="ripl-gold">More possibilities tomorrow.</span></h1><p class="lead">Explore compound interest with different starting amounts, contributions and timelines. These numbers show what your assumptions produce, not what an investment will earn.</p><p class="small">Compounding is set to annually. You choose how often you contribute.</p></div></section>
 <section class="section questions"><div class="wrap"><div class="compound-grid" data-compound>
 <form class="compound-controls" novalidate>
-<label for="compound-start">Starting amount ($)<input id="compound-start" name="principal" type="number" min="0" max="1000000000" step="any" value="10000" inputmode="decimal" required/></label>
-<label for="compound-years">Years to grow<input id="compound-years" name="years" type="number" min="0" max="60" step="1" value="10" inputmode="numeric" required/></label>
-<label for="compound-rate">Assumed annual rate (%)<input id="compound-rate" name="rate" type="number" min="-100" max="30" step="any" value="5" inputmode="decimal" required/></label>
-<label for="compound-add">Additional contribution ($)<input id="compound-add" name="contribution" type="number" min="0" max="10000000" step="any" value="100" inputmode="decimal" required/></label>
+<label for="compound-start">Starting amount ($)<input id="compound-start" name="principal" type="number" min="0" max="1000000000" step="any" value="500000" inputmode="decimal" required/></label>
+<label for="compound-years">Years to grow<input id="compound-years" name="years" type="number" min="0" max="60" step="1" value="15" inputmode="numeric" required/></label>
+<label for="compound-rate">Assumed annual rate (%)<input id="compound-rate" name="rate" type="number" min="-100" max="30" step="any" value="8" inputmode="decimal" required/></label>
+<label for="compound-add">Additional contribution ($)<input id="compound-add" name="contribution" type="number" min="0" max="10000000" step="any" value="0" inputmode="decimal" required/></label>
 <label for="compound-frequency">Contribution frequency<select id="compound-frequency" name="frequency"><option value="monthly">Monthly</option><option value="annually">Annually</option></select></label>
-<p class="small">The 5% starting assumption is an example you can change. It is not a RIPL forecast or recommendation.</p>
+<p class="small">The 8% starting assumption is an example you can change. It is not a RIPL forecast or recommendation.</p>
 <button type="submit" class="btn">Update Illustration</button><p class="compound-error" role="alert" data-calc-error></p>
 </form>
 <div class="compound-results" data-calc-results hidden>
