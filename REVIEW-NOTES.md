@@ -1,21 +1,27 @@
-# RIPL V1 review notes
+# RIPL V11 | Service clarity, site search and portfolio illustration
 
-## Included
+Complete cumulative source package retaining the V10.3 homepage cleanup, V10.2 winding Financial Freedom path and previous site content and visuals.
 
-58 static pages: business-owner hub and detailed questions, SAGE, Advantage Investing, retirement, transitions, concentration, structured notes, Money Questions, team, contact, privacy, disclosures, and the updated persona assessment.
+Implemented pending updates:
+- Homepage service statement: “RIPL Wealth provides financial planning and investment management for business owners, athletes, and families, from our office in Fort Collins, Colorado.”
+- How We Work labels above the two option boxes: “A Plan + Investing” and “Investing.”
+- SAGE inclusions: “4+ planning conversations.”; “Clarity and guidance on next, actionable steps.”; “Quarterly check-ins, an annual review and a contact calendar.”
+- SAGE's follow-up description now also says quarterly. The portfolios-only cadence remains as previously stated.
+- Calculator defaults: $500,000, 15 years, 8% annual assumption, $0 additional contributions, monthly contribution frequency. Annual compounding retained. The starting-assumption note now says 8%.
+- Header search icon, mobile search menu item, accessible search dialog and standalone search page. Index builds automatically after every production build and covers 65 pages plus 41 individually linked questions. Search supports selected related terms and includes title/category/previews, suggestions, no-results guidance and load-error recovery. Native dialog supports Escape and focus return; a standalone link remains if the dialog API is unavailable.
+- RIPL Portfolios hero now includes a gold/purple hypothetical growth chart beside the copy. It uses the calculator's mathematical model: $500,000, 15 years, constant 8%, annual compounding, no additional contributions. Ending illustration: $1,586,085. Assumptions and exclusions are visible; it is not actual RIPL performance, a forecast, or a guaranteed return. Text links in that hero now have readable contrast.
 
-RIPL navy-violet, indigo, periwinkle, silver and restrained gold. Official uploaded wordmark. Original provided team/podcast photographs. Distinct booking paths for Chase and Adam. Responsive layouts, canonical URLs, sitemap, and preview noindex settings.
+Validation:
+- Production build passed: 68 HTML pages, 65 sitemap URLs, search index with 106 entries.
+- Internal links, anchors, FAQ text/schema correspondence, preview noindex and framed image references passed.
+- Existing image bytes and team bios are unchanged.
+- Calculator independent reference checks and all three quiz interaction flows passed; 393,216 quiz answer combinations checked.
+- Search checked with nine representative topics, including selling my company, structured notes, Roth, NIL taxes and team names. Every search destination and question anchor checked.
+- Search interface unit checks cover dialog open/close and focus return, actual result rendering, suggestions, shared index caching, no-results guidance, failed loads/retry and stale-response cancellation.
+- New stylesheets parse. The portfolio illustration and calculator defaults match independent compound math.
 
-## Assessment changes
+Verification limits:
+Desktop/mobile browser visual QA and live form delivery were not performed. Review the Cloudflare preview after loading. Nothing in this package has been pushed or deployed by the assistant. Production domain configuration and indexing are not changed by this version.
 
-Preserved the updated business-owner statements, binary choices, compact three-screen flow, and seven personas. Added stage overlap/no-match notices, safe text insertion for visitor names, keyboard selection state and focus handling, opt-out of contact sharing, and honest delivery error handling. Removed the public developer preview link. Replaced placeholder alerts with working site navigation. Softened two descriptions that asserted personal financial stability or blanket approval of reinvestment without supporting financial data.
-
-## Verification
-
-Astro production build passed. 58 HTML pages built. Automated audit found no missing local link/image/script/style targets. Sitemap URLs match the intended routes; utilities are excluded from indexing. Browser-based visual testing could not run because Chromium download failed and the cloud browser refused localhost. Functional DOM tests passed for all seven persona mappings, tie/no-match notices, restart validity, opt-out, mocked delivery success/failure, CC recipient, exclusion of raw answers, and safe rendering of visitor names. These tests do not prove real inbox delivery.
-
-## Open items
-
-GitHub push is blocked by missing authenticated credentials in this session. Cloudflare account configuration has not been performed. FormSubmit delivery has not been verified in the real inboxes. Team photo matching, persona inference language, privacy notice, fee-only description in inherited article copy, and current registration/documents need firm review before public launch. No statements of guaranteed investment performance are intended.
-
-Primary sources checked: IRS Schedule D instructions (QSBS gross assets), IRS Tax Topic 412 (NUA), and SEC Investor Bulletin: Structured Notes. The remaining inherited educational content still requires review as part of the launch process.
+Audit follow-ups remain separate:
+Team background confirmation, title consistency, educational content reviewer attribution/review dates, live performance/accessibility testing and public indexing verification were not represented as completed. No unverified biography or review date was invented.

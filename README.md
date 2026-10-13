@@ -1,44 +1,32 @@
-# RIPL Wealth website · V1 review draft
+# RIPL Wealth | V11
 
-Astro static site adapted from the supplied AdamKasick.com V9 source.
+## Load into the existing project
 
-## Run locally
+1. Unzip this complete package.
+2. Copy all contents into your existing riplwealth.com GitHub Desktop repository, replacing matching files and merging folders. Include src, public, scripts, tests, package.json and package-lock.json.
+3. Commit and push to the connected branch.
+4. Let Cloudflare build, then review your preview URL.
 
-```sh
-npm ci
-npm run dev
-```
+Upload the extracted files, not the ZIP. Do not upload node_modules or dist.
 
-## Cloudflare Pages
+## Cloudflare settings
 
-Connect the `akasick73/riplwealth.com` repository. Choose the Astro preset, build command `npm run build`, output directory `dist`, and main as the production branch. Use the generated pages.dev preview address. Do not attach the live domain yet.
+Build command: npm run build
+Output directory: dist
 
-Optional environment variable: `SITE_URL` can be set to the exact generated preview URL, so canonical URLs and sitemap links match the preview. The default is the future `https://riplwealth.com` address. There is no custom worker or server dependency.
+The postbuild step automatically creates search-index.json from the generated pages. Keep the scripts folder and updated package files so search works after each deployment.
 
-The compiled-preview ZIP can also be extracted and its contents deployed using Cloudflare Pages Direct Upload. Direct Upload and Git integration have different project workflows; use the Git-integrated project for ongoing edits.
+## Local checks
 
-## Assessment delivery
+npm install
+npm run build
+node tests/v11.mjs
+node tests/search-ui.mjs
 
-Uses the supplied updated Quiz (2), binary mindset answers, two six-statement screens, and one five-pair tendency screen. Seven personas are retained. Exact stage ties are disclosed. All-negative stage answers are marked as no clear match.
+For local development, run npm run build first to generate the search index, then use npm run preview to exercise search against the full built site.
 
-Visitors can see results without sharing. If they choose to share, only name, email, optional phone, persona and overlapping stages are sent through FormSubmit to adam@riplwealth.com with chase@riplwealth.com copied. Raw answers stay in the browser. No assessment data or personal information goes to analytics. No analytics account is configured in this draft.
+## Preview and production
 
-FormSubmit must be activated for the recipient inbox and tested from the deployed preview before delivery is considered working. Inbox delivery and the copied recipient have not been verified. No visitor result email is promised or configured. No automated newsletter or SMS subscription is added. Contact requests use the same recipient pair.
+The package retains the existing noindex and robots.txt preview restrictions. No custom-domain or production indexing change is made here. For an intended public domain launch, both the robots.txt crawler block and preview noindex setting must be updated; PUBLIC_INDEXABLE=true alone does not change robots.txt.
 
-## Booking
-
-Chase: https://calendly.com/chase-riplwealth/talk-to-the-founder
-Adam: https://calendly.com/adam-riplwealth/30min
-
-## Before launch
-
-- Review all copy, privacy language, investment explanations, and persona descriptions with the firm and ICA.
-- Confirm Taska Skott spelling (supplied by Adam) versus Tasha in the older Brain.
-- Match Ashton and Taska to the supplied portraits; their V1 cards intentionally use initials until identity is confirmed.
-- Confirm current adviser registration and disclosure documents.
-- Activate and test FormSubmit, including CC receipt.
-- Test desktop and mobile layout in a real browser. Automated browser rendering was unavailable in the build environment.
-- Set SITE_URL to the final domain and PUBLIC_INDEXABLE=true only at launch.
-- Replace public/robots.txt with an allow-crawl file and final sitemap URL; remove X-Robots-Tag from public/_headers when ready for indexing.
-
-The domain is not connected. This draft is not a compliance approval.
+See REVIEW-NOTES.md for changes and verification limits.
